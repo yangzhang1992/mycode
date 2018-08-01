@@ -1,0 +1,5 @@
+FROM_NAME=jenkins@dev.com
+EMAIL_SMTP=172.16.7.35
+AUTH_USER=jenkins@dev.com
+AUTH_PASSWORD=jenkins#$
+

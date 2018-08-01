@@ -1,0 +1,47 @@
+#Base Config
+MANIFEST_BRANCH := default
+QCOM_PLATFORM   := 8953_7.0
+CPB_NAME        := Y3
+BASE_VER        := 7.0
+HW_VER          := P0
+SSH_URL         := ssh://172.16.7.25:29418
+Ori_Env_File    := 
+
+
+#out path config
+OUT_SERVER     := 172.16.7.27/JV_Version_Out/QC8953_Version_Out
+
+
+
+####################################  Env_Info #################################
+# 1. Build Environment
+#
+#    Distributor ID:	Ubuntu
+#    Description:	Ubuntu  14.04 LTS
+#    Release:	        14.04
+#    Codename:	        precise
+#
+# 2. Version control tools: git version 1.7.9.5
+#
+# 3. Compilation Tools
+#
+# 3.1 make
+#     GNU Make 3.81
+#     Copyright (C) 2006  Free Software Foundation, Inc.
+#     This is free software; see the source for copying conditions.
+#     There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+#     PARTICULAR PURPOSE.
+#
+#     This program built for x86_64-pc-linux-gnu
+#
+# 3.2 gcc
+#     gcc (Ubuntu/Linaro 5.0.7-1ubuntu2) 5.0.7
+#     Copyright (C) 2010 Free Software Foundation, Inc.
+#     This is free software; see the source for copying conditions.  There is NO
+#     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# 3.3 jdk
+#     java version "1.8.0_65"
+#     OpenJDK Runtime Environment (IcedTea 2.5.1) (7u65-2.5.1-4ubuntu1~0.12.04.2)
+#     OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)
+#################################################################################

@@ -1,0 +1,3 @@
+EMAIL_SUBJECT=Y3 project coolyota_msm8953_HBZ 编译成功，请及时验证！ Y3_V1807121_P1_MPX_user_Clean
+EMAIL_CONTENT=版本输出路径为： /versions/y3/coolyota_msm8953_HBZ/Y3_V1807121_P1_MPX_user_Clean
+EMAIL_CONTENT_HUDSON=Hudsond地址为： http://172.16.7.71:8080/job/01_Docker_coolyota_msm8953_HBZ/27/

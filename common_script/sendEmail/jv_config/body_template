@@ -1,0 +1,5 @@
+ERROR_SUBJECT=编译失败，请火速处理！！!
+SUCESS_SUBJECT=编译成功，请及时验证！
+EMAIL_CONTENT_OUT=版本输出路径为：
+EMAIL_CONTENT_HUDSON=Hudsond地址为：
+

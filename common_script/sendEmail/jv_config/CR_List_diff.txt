@@ -1,0 +1,28 @@
+
+---------------------------------------------------------------------
+*** device/zeusis/common
+
+commit ec29862848ca488c5fb21affcd3e78d1fdf2d877
+Author: bianhanzhang <bianhanzhang@yotamobile.com>
+Date:   Thu Jul 12 14:33:25 2018 +0800
+
+    [YY3-8687][ROM][1/1]modify wallpaper for HBZ
+    
+    Change-Id: Ibc6109763dd55fa256c178b1892c33158049255f
+    Signed-off-by: bianhanzhang <bianhanzhang@yotamobile.com>
+
+:100755 100755 c3f719f... 966c196... M	media/journeyui-theme/wallpaper/launcher_wallpaper_07.png
+
+---------------------------------------------------------------------
+*** vendor/zeusis/app/ZsThemeManager
+
+commit 87dd2d7f0838e4027f4c2e8865bb56050a9ac331
+Author: liuwenrong <liuwenrong@yotamobile.com>
+Date:   Tue Jul 10 16:42:58 2018 +0800
+
+    [YY3-8686][ROM][1/1]Theme: remove MoStyle Theme for HBZ version
+    
+    Change-Id: Iecba02a51c7ab07c3a8fe304f8f8c04f25183b37
+    Signed-off-by: liuwenrong <liuwenrong@yotamobile.com>
+
+:100644 100755 fb95faa... 3731e46... M	ZsThemeManager_unsigned.apk
