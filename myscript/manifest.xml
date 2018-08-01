@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <remote name="origin" fetch="ssh://172.16.7.21/" review="http://172.16.7.21:8080"/>
+    <default remote="origin" revision="sprdroid8.1_trunk_18a" sync-j="4"/>
+    <project name="device/asus/fugu" revision="b21c1305d93d1dc511f9adcf3912206f39339d2c" groups="device,fugu,broadcom_pdk,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/asus/fugu-kernel" revision="c488c7e1dc88194c546c436eda6f7f24dc1b08be" groups="device,fugu,broadcom_pdk,pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="device/common" revision="f87323bed1150074fee5a0ad64d76aaed0c58f00" groups="pdk-cw-fs,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/arm64" revision="392eec3cb4c64721cd5b76fa36535954b5d45309" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/armv7-a-neon" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/car" revision="67ccea11659f187c2eb1a296ba60e034600508a1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/common" revision="2c7931252728d4964adb72283ae3b51a4cebc5a1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/goldfish" revision="e75151680a172f4ee3ec71603f7f062220148005" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/goldfish-opengl" revision="377c1f5c41a19f9dcf814cd05ceca1fc78511c9a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/lionhead" revision="2632d2f2e3565494e2ee3668e93195dc7bba6128" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mini-emulator-arm64" revision="77d394326f7fc17831ee7702cb8b750fe0b21443" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mini-emulator-armv7-a-neon" revision="258706fc0ddcf2c9be48967f4766ec90efb736a5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mini-emulator-mips" revision="544e69736cff911c286a5d1d300dac228e23a73f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mini-emulator-mips64" revision="b1c36d0847fe6366527efd38fdb29d757ea887ee" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mini-emulator-x86" revision="65d59e2be2cfd713513a05d80a0f75794ab60579" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mini-emulator-x86_64" revision="b62205d75073783e171fbcd5f675e25e57833479" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mips" revision="bf27f9bcb56e483310507f78f0a4b93d3f5499c5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/mips64" revision="34300f7753b7a9fa2f7ba16bdc1f1fb8625dd4e4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/qemu" revision="97ef4f962aec451b00bfe562c1cb67471c4563d9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/uml" revision="8dfdfa09a42e157cd03a6a940919b41863f00d40" groups="device,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/x86" revision="645e6e711b32f94ecbd9b1cc77a51559dfce5ebe" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/generic/x86_64" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" groups="device,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" groups="device,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/google/atv" revision="4b86695305ffc007311aeb46eebcc4b162c4a1be" groups="device,fugu,broadcom_pdk,generic_fs,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/google/contexthub" revision="33d19d2a2775bdeee2af56910cddd2571777d9b4" groups="device,marlin,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/google/dragon" revision="c432be58782e2c65b2273fa961e98f4241ec167b" groups="device,dragon,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/google/dragon-kernel" revision="58436290edb911230e2580eef3b1dc1941a2389b" groups="device,dragon,pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="device/google/vrservices" revision="b290ba549b38447937773e3698e4678015550684" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="device/huawei/angler" revision="1bd6b08115991d0f17c4eb421f28381e774fb0d4" groups="device,angler,broadcom_pdk,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/huawei/angler-kernel" revision="2864c48ddc063e65358cef73f4909eeb3794a660" groups="device,angler,broadcom_pdk,pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="device/lge/bullhead" revision="5813902563573fbce6a655ac871f95f7bced696e" groups="device,bullhead,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/lge/bullhead-kernel" revision="2b9c0df5ebcb5a5e7196e447f2b71d27e644dabd" groups="device,bullhead,pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="device/linaro/hikey" revision="35d25a2b3e18d16e7ea92f9689165105e7b3a056" groups="device,hikey,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/linaro/hikey-kernel" revision="4da02364ca1db069a9e29bd098ffece7dc1a7c3d" groups="device,hikey,pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="device/sample" revision="05e5b3eb56e8a39b0ab9b1d5045efdfa4df7d533" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/art" path="art" revision="83c1d93e48674aa0a2b9ae3a573501c51fc6220b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/bionic" path="bionic" revision="d046ae2ca3469e15d8cde20dad1a9d8a88d36f16" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/bootable/recovery" path="bootable/recovery" revision="8e426404ff527848a7e94e3a7f3bf81d6dfea581" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/build" path="build/make" revision="6ae3006849e77ab4e470cc6798456433653d9484" groups="pdk" upstream="sprdroid8.1_trunk_18a">
+        <copyfile src="core/root.mk" dest="Makefile"/>
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+        <linkfile src="core" dest="build/core"/>
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+        <linkfile src="target" dest="build/target"/>
+        <linkfile src="tools" dest="build/tools"/>
+    </project>
+    <project name="platform/build/blueprint" path="build/blueprint" revision="a011038d864e3faa528ec1037a568e5824955a0f" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/build/kati" path="build/kati" revision="51f78826f5d431981903ef82c51bdb868438717d" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/build/soong" path="build/soong" revision="47d26044c78548075fbf2ee7d664e3fe7888b4cc" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a">
+        <linkfile src="root.bp" dest="Android.bp"/>
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+    </project>
+    <project name="platform/compatibility/cdd" path="compatibility/cdd" revision="500e2e0fa96a6eeb5f9dbe415627f4e7cc31270a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/cts" path="cts" revision="941f354596c47eb2b250ba35d356698b85cba2fa" groups="cts,pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/dalvik" path="dalvik" revision="3f7a234170f3bfe96f78d177d1f841862dd32ff7" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/development" path="development" revision="c99865c35739f3678947b1939b068cafd3dff411" groups="developers,pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="f99a8b31cc407b186dedf0d3bc0c73735995e112" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ImageMagick" path="external/ImageMagick" revision="5691a8ecaba367d04b2c2a13ec1e9e05f4f17b7c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL" revision="c7231a8b061cb44839292cf4de1aa2b8d3fc165f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/aac" path="external/aac" revision="1da9d9a26910b0c82410354be9fe20a81ea2f47b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker" revision="5453ac991183dc8dc856e8beced059edab94acaf" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/abi-dumper" path="external/abi-dumper" revision="73ee623ee0707f3c741fedf181e19224d0422003" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/adt-infra" path="external/adt-infra" groups="adt-infra,notdefault,pdk-fs"/>
+    <project name="platform/external/android-clat" path="external/android-clat" revision="c38b324ab31ae82cef8fe6d6f5621950b7f007d1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/androidplot" path="external/androidplot" revision="c66727ebf001607cee14521c35bc852b55fd9845" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ant-glob" path="external/ant-glob" revision="a73228afa9540b9c5518d360c5ae630bb634f975" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/antlr" path="external/antlr" revision="dd5fa6d48b827c5d98b625adbc209f4a05567534" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/apache-commons-math" path="external/apache-commons-math" revision="18f62fca59d387e3c1ccd8f80087d9c9af40bcc8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="6f5ec3589aca45d3c7cd914005c49594890bb7b0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/apache-http" path="external/apache-http" revision="294a8dc04e8af4720659aee68c4ea09c9a96d2da" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/apache-xml" path="external/apache-xml" revision="31d7642eb8f37a9166db7f1c9e313ab651bdb8ba" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/archive-patcher" path="external/archive-patcher" revision="12aea8c52797a0737cec47ace88c00cf87a1ebfc" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/autotest" path="external/autotest" revision="3433323919c21c648262f82306fa224e9703f3dd" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/avb" path="external/avb" revision="9e39234756109581a54784584e497a26b80fec12" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/bart" path="external/bart" revision="232e1a3fdc810f60aedda0e58cd95e47296e0335" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/bison" path="external/bison" revision="7467d52af437dd3dfea237a6865ab84bf258dee0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/blktrace" path="external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/boringssl" path="external/boringssl" revision="d3a4c5684f96eac702d8d34159cf4592d2e18eea" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="ebf50b6ec1ab2e6a6927f9590b63429ecc5dd0f8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/brotli" path="external/brotli" revision="49144a2ca89201605b6b053176c3d8a5546deebc" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/bsdiff" path="external/bsdiff" revision="1e1767e6fc54db916faf0020e4379756dcc45b9b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/bzip2" path="external/bzip2" revision="cd57e048fb0988f6eb7e66c8097fac37d015a296" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/c-ares" path="external/c-ares" revision="9f1b2827cb88c58a80c470a4bddb2485677ec57f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/caliper" path="external/caliper" revision="4a0d9aba0856d0aa965d5653bfa4c138f0e8a8ba" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/cblas" path="external/cblas" revision="d063db8bdddfcde61e4bad3bfe65941fd73e8094" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/chromium-libpac" path="external/chromium-libpac" revision="8c47eebd81c996f17198edb2fa504c04d48d567e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/chromium-trace" path="external/chromium-trace" revision="f08f41cd69b9ee82b09be3a7804a767af5452f8a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/chromium-webview" path="external/chromium-webview" revision="0d15a4c74bd7194256e54ac7b344fc0bade348ab" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/external/clang" path="external/clang" revision="751a76679b0fb5798ea6cab75906df07edcab315" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/cmockery" path="external/cmockery" revision="9199c7bfafefea32d1884182fa655b6e4578c1c4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/compiler-rt" path="external/compiler-rt" revision="0c46c9e892a3f68420635032ef2f6152dabd197c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/conscrypt" path="external/conscrypt" revision="05e20e49f88d94b4362488239c93de1631f62d15" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/crcalc" path="external/crcalc" revision="5559610bea3b267abef3273868f2d6b8c01409a5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/cros/system_api" path="external/cros/system_api" revision="ad8426b3192ec527c2ad6287aeef0e012757e4a0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/curl" path="external/curl" revision="059bdfc6d82bb4c985a26467cfcf592f7308bbbb" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/dagger2" path="external/dagger2" revision="50daa982cc79418c6b9686d13e447cca1aa6cdea" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/deqp" path="external/deqp" revision="264fe8dbdddb79d21d51cd6f0f68580e1806142c" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/desugar" path="external/desugar" revision="2aa9e2e0961b71f8312e8b88f26354fa8c83de19" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/devlib" path="external/devlib" revision="0d8ffa979098c9e1bf8eb0f1c76cfbd5df1324cc" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/dexmaker" path="external/dexmaker" revision="e62dfc0cb516ce70d9b8337a81a585da66c6b88e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2" revision="54d1fc2d574d21f788abb64b10c9a6352eba0b65" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/dlmalloc" path="external/dlmalloc" revision="6661f3ca66b55d8f5a57b96fec97efaf8f3897a5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/dng_sdk" path="external/dng_sdk" revision="9bbc04196faa97b8b7df2ec6b997a7109a8a209c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="c6c0cf39d68f94c343824c2d99040a109be4b705" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/doclava" path="external/doclava" revision="f8c9b6c5dd536c5ad3b995be77f7189ca08ae345" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/donuts" path="external/donuts" revision="005389fb31a67841b5de42f0d25fbfab843e208c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" revision="ce79632e100f396766c52791351a4a4e9f3fafa1" groups="drm_hwcomposer,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/droiddriver" path="external/droiddriver" revision="6a3bdec535b24fc8c1af205a6a2986f881535d2d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/drrickorang" path="external/drrickorang" revision="23d02aa32f580d03680aa8f0a62afbb4c915e669" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/dtc" path="external/dtc" revision="a7e2c24a2f1df4a73c75f5a84a671c59c1089e63" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="28022c4575cd2730e2b443797828ad89a8adaa7e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/easymock" path="external/easymock" revision="ae369e1738f81cbcf6118adac03ec0e8bcbb8400" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/eigen" path="external/eigen" revision="364389e897d64ab9abe9d3d027c608e46df354e8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/elfutils" path="external/elfutils" revision="f1f212563ee672a1eca4238a5cc6ff1e969ec071" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/emma" path="external/emma" revision="deb5711b2635ee9d332605e2e00b63b32bed6777" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/esd" path="external/esd" revision="943c42b6f8e9afe821744aa4c039f4943ebf29f5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/expat" path="external/expat" revision="b8f484c31a840e919d202af03fa00df92e4fd40f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/f2fs-tools" path="external/f2fs-tools" revision="f6b5f224ad06e14f2a8e74ef2f7626c96b2f142e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/fdlibm" path="external/fdlibm" revision="fcd17254a9e59ceb0420d4a2faf29db6b004c443" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/fec" path="external/fec" revision="1be76f512a85176bf5c59b6b9acf88a38f4895c8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/fio" path="external/fio" revision="844e05b041d7c9b5617a101ea83ad1d8bd982139" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/flac" path="external/flac" revision="22d1581f2981107bfe2ee8ea9a45e3fccd0db4a2" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/flatbuffers" path="external/flatbuffers" revision="83d6225e9b642ea069023e45a943d3e7f916fb62" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/fmtlib" path="external/fmtlib" revision="f4d6768e2595b881a146e41e275f77203db9bc56" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/fonttools" path="external/fonttools" revision="fede58680958e96e6e8f61c3cc6282f798452c53" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/freetype" path="external/freetype" revision="1397453b0923c953107b70286d2308ce00ab6a72" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="4103a4ab7d45b439b4f7297a2129a1ca45ec91dd" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/gemmlowp" path="external/gemmlowp" revision="c42f5705d21dae835388d15dd1106028002e66c6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/giflib" path="external/giflib" revision="db6d1840bcd6c13cc41456835127d6d7d1b0694c" groups="pdk,qcom_msm8x26" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/glide" path="external/glide" revision="bb5ad30aaff77d3e7226133b98c434e9f9cc1a45" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-api-services-storage" path="external/google-api-services-storage" revision="29b36ffc866ec32ea01f92ab55100f16bb4b2157" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-benchmark" path="external/google-benchmark" revision="1df04fb57e1320088dc6529eaa55aee379a1f46c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-breakpad" path="external/google-breakpad" revision="4125ccd15f21dbae3d521d0298ce90f1fbc29bdb" groups="dragon,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" revision="0062a10458d4c357f3082d66bcb129d11913aaae" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" revision="2c5cb418c690815545bbb0316eae5fd33b9fc859" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" revision="bce2136662854076023066602526ba299e6556b2" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script" revision="7b6623bd54cee3e48ae8a4f477f616366643cc78" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/google-tv-pairing-protocol" path="external/google-tv-pairing-protocol" revision="c731915e80d9e2ccb755b97e7fdd280bbea07f70" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/googletest" path="external/googletest" revision="f786916e6f2211c6a64d0333897702463cfdf779" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/gptfdisk" path="external/gptfdisk" revision="6abd9d519d17c3ed95c75488c733d482361e4e44" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/guava" path="external/guava" revision="96219ea8667672fb9de4908f2ad09329b4cbaabb" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/guice" path="external/guice" revision="2f4c6dfce39d38e64a6e4993a808270e16d7dc1b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/hamcrest" path="external/hamcrest" revision="2c2a845e1e8fdda704e4f2ccaa335d69d043ebf3" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" revision="815836db6b654ffa5b9cafb749b67ac250e0c35a" groups="pdk,qcom_msm8x26" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" revision="4652b2626fee9526711c10591af5762fa3d1d774" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/icu" path="external/icu" revision="4639618f4ff6fabe2d33962120613fa1bc61d7dd" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ims" path="external/ims" revision="129b42af2b04a39da53df8da5031526c9a432cc8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/iproute2" path="external/iproute2" revision="a55837a09161454f81719bf7cb429a0d63432e71" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="16477a409310e8daa3ec5c8ecaa7a2f2d471fb93" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/iptables" path="external/iptables" revision="00ddcc82b12d8d54a12f6225996efda199919f23" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/iputils" path="external/iputils" revision="dad856323d1bba2f4518918c27e67c2433d9b9da" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/iw" path="external/iw" revision="63d8bad2a5a8a9b443595762233692c5f6a6d36b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jacoco" path="external/jacoco" revision="503a120329864b158ed72a07e21155b18e709c21" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jarjar" path="external/jarjar" revision="78baf98a5c45dfd99d4d2e6d8a3ad392780219fd" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/javasqlite" path="external/javasqlite" revision="ee41d81872eedc632f42bd231b95bc945690d159" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/javassist" path="external/javassist" revision="f7c4b954072e563b75f6910c25bb689bbf38a3d1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jcommander" path="external/jcommander" revision="501341b4efff9c378ac4003899dd064586231550" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jdiff" path="external/jdiff" revision="9623856ef54d015dacbe29c97e8dac28fdcdd8c0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jemalloc" path="external/jemalloc" revision="f5e3ec3948d568458689b6a3cca2512b5342b2de" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jline" path="external/jline" revision="74812032f8d8eddbef387f18c96de9e5c38b8fdb" groups="pdk,tradefed,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jmdns" path="external/jmdns" revision="0c71647deb7f7835c473fd3dfb45943083e47794" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jsilver" path="external/jsilver" revision="b9b84920ba47ddf7f15baa01c56b28e3d3f951ea" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jsmn" path="external/jsmn" revision="dcf45032132d2991929b93fe18de2b5d164bdf11" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jsoncpp" path="external/jsoncpp" revision="ada32487313a4bf9aa7f6aaa5625f584d713fcfc" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jsr305" path="external/jsr305" revision="f162f4b5d952208e4b6e0a7b2e1bf01058e429b4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/jsr330" path="external/jsr330" revision="d15be3f228885ce6ed2098ff2dcbf6c1085d83ba" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/junit" path="external/junit" revision="df26755a810a785f3ebf21b8aaff6769076f035f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/junit-params" path="external/junit-params" revision="33582a93c902af03f77a7df37ba28d6d3812f600" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/kernel-headers" path="external/kernel-headers" revision="3d5032f6a22aa4c6de0000400379c4ccccbe31bd" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/kmod" path="external/kmod" revision="4082ee0d1ad5ce92c5ea6fdc5ca08e89cdd9801d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ksoap2" path="external/ksoap2" revision="9fdc4a6bb2b882bd1d6c822d2ad0c66585d66ba9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libavc" path="external/libavc" revision="a04ba6982fc675af29fc71955f497fd00ce6fd50" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libbackup" path="external/libbackup" revision="a645153b0a97663636bacdc5527c0d304fa79657" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libbrillo" path="external/libbrillo" revision="c3f3f9e302aaefdfc86cef854a2caa6751b436c7" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libcap" path="external/libcap" revision="1d411da723596f52a3110c9974bde9738ad5227b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="835f318b9785a70415980fba96c34ee5c6b7e415" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libchrome" path="external/libchrome" revision="cb67332318a8f00c01c6a3627d84a1b247bd18d9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libconstrainedcrypto" path="external/libconstrainedcrypto" revision="c9d382f591a818ce0ac4711f90bc358ed584c5bb" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libcups" path="external/libcups" revision="66d13911b6d630f5db39ba9fe90a15790e09c42a" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libcxx" path="external/libcxx" revision="86a195a7931405a349ee481a6501a766c08abbc4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libcxxabi" path="external/libcxxabi" revision="6d51370ea75688927f3acdaecf0749262e3a329a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libdaemon" path="external/libdaemon" revision="e2f604066d97431c95856c73d7b9ee46b348d37e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libdivsufsort" path="external/libdivsufsort" revision="2a896e7033ced391c57ec46c1d772b15417621a4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libdrm" path="external/libdrm" revision="401cff4afaf7198ea54c086cad6305f987afb940" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libedit" path="external/libedit" revision="67e14dfc833aafa400a3aad8cb329cbaec503445" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libese" path="external/libese" revision="56a64a38e4dbbf228c92d9184169fe152edd157b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libevent" path="external/libevent" revision="a4c747362f2f0dcc126b7775ecc30a1aada19613" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libexif" path="external/libexif" revision="a64e1fb34d12ef69c9774b351b801681d3466928" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libgsm" path="external/libgsm" revision="5e0e72ca6c6ffc423ea1f755262d413e899c6a89" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libhevc" path="external/libhevc" revision="82e7aae0183d500ef3a173353af65056dc3476bb" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" revision="343d05aa12358507283ce916fd1eae9fb3ed3879" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libldac" path="external/libldac" revision="b1f61dd0e5639572bcc08b0e281337878bbf1b98" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/liblzf" path="external/liblzf" revision="a88b9629447deabe8697d2f8fd4cc70aa6e1b563" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libmicrohttpd" path="external/libmicrohttpd" revision="1e68f5d827a859ba3b7ab6a70a60247e0b96afa5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libmojo" path="external/libmojo" revision="03d018abf828e3c2a068ad7bbc8527af6a8c8c2b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libmpeg2" path="external/libmpeg2" revision="cbef1838c9f0934b30a276c5b298f3279b14c410" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libmtp" path="external/libmtp" revision="202b04e58aff23d238dc535271cae33b43ade9c2" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="b9e2926f22af91ad4bdd73e51910c8874b2bf8e5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libnfnetlink" path="external/libnfnetlink" revision="5b4836d279762a35b3f5c6034551ffada9b54f6b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libnl" path="external/libnl" revision="133d29d98828b32e1568ee8e74287e9bd185c13e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libogg" path="external/libogg" revision="3011eefea27b7664114f57850923a40bfef15c76" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libopus" path="external/libopus" revision="dd8036b66dc3e7b680e647ed8fdf06417dfbd07b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libpcap" path="external/libpcap" revision="1a726f66c98d6a685b0b5da383a3a3fa8254f681" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libphonenumber" path="external/libphonenumber" revision="d84b8219fa61329c21dbb50821b9b33dbc79d220" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libpng" path="external/libpng" revision="22d57ccb52b5c14ca07029787c4a4fe1a90857d0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libtextclassifier" path="external/libtextclassifier" revision="e10780fd464f5d0c2129fd8546501547df97c24d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libunwind" path="external/libunwind" revision="43dd05e3e53131be126af84accbab1c32e0da897" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libunwind_llvm" path="external/libunwind_llvm" revision="a3a975c39cf0610271d65e87e3c031271ce5bbf1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libusb" path="external/libusb" revision="723eef28307737e21348b124234c18eba2038764" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libusb-compat" path="external/libusb-compat" revision="759481ae400d02fe99488dcdcd653b4f8139a39c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libutf" path="external/libutf" revision="853ef375ba2ce430f5b13b556812b2d83ccc82e1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libvncserver" path="external/libvncserver" revision="ed7c226e0c0c22704da70c2cfe85d8a0043a3ca0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libvorbis" path="external/libvorbis" revision="dee2e0a12822ec62c89c2d7582f1a7d32cd0875b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libvpx" path="external/libvpx" revision="3b404bc4c0e0fb2ea612da5883e7bac5c0803440" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libvterm" path="external/libvterm" revision="4b7ab84bf9ced02fe8debaacd44724fac7a8f51e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libxml2" path="external/libxml2" revision="accc7f33b72e5332894b00bbfed5dbc94c309afb" groups="pdk,libxml2" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/libyuv" path="external/libyuv" revision="7ff60119cd2a64f55cda06e499db8ab54470c6e1" groups="pdk,libyuv" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="17400d871dfb00cf45c4f011d26a766f607032e0" groups="vts,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/lisa" path="external/lisa" revision="48024e3bdcb39528f69bb897a3aff57347535c7d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/littlemock" path="external/littlemock" revision="4dd43c74801149ded3e18eaba7d43ff6dfa192c8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/lld" path="external/lld" revision="26c9bb3b51a7ac4bc45f73d532a03cfd9982043a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/llvm" path="external/llvm" revision="e9a5bd0a13f4409c70b41b2f2d5d8a7489d56009" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/lmfit" path="external/lmfit" revision="cc79822d100938c92bc403706c95f4583af1f60c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ltp" path="external/ltp" revision="02f80b1f98171e13d5be205e707731233c2c8e6a" groups="vts,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/lz4" path="external/lz4" revision="fc82a7a16aee5add0bdbc34613ae085192793fb1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/lzma" path="external/lzma" revision="2398a1f776e4baab73d714f92bb7af0f93c720b9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/markdown" path="external/markdown" revision="06a8f8b914d477183f68b84424bce8ff4dae7e84" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="85d33e8312069bc5b3d0e307589e0919922e687c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mesa3d" path="external/mesa3d" revision="e0fda54ed167f97692bc6cb7237a8e3dca15ba08" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/messageformat" path="external/messageformat" revision="7941896999a8a623683b888fd39095f32a7f49b6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/minijail" path="external/minijail" revision="e3de2eb97fdd3d1366b86cf0c557fd4aa0077e5c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mksh" path="external/mksh" revision="56884cc18f4189d91b0bf1b654b68cb8ff6bba6f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mmc-utils" path="external/mmc-utils" revision="f105db5bd1934f0c3e5f74bbc9a5aaeac7a6bf2b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mockftpserver" path="external/mockftpserver" revision="a98e55fca4d6aa55549f8c2c80034f2d04118cf6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mockito" path="external/mockito" revision="c1c96b2f91899660269d7c54bdfe6565e5250f71" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mockwebserver" path="external/mockwebserver" revision="2440623105409d48ec0a3717bb6f3da711a0f15d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/modp_b64" path="external/modp_b64" revision="6f11b5c9b4ffb38dc9375f3cf344da4300a2741a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mp4parser" path="external/mp4parser" revision="88bd0c6cfa7fcfbbebcc15c2c565f714cb36b065" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/mtpd" path="external/mtpd" revision="cf7afdb28ea47ebe8a6b298a03cf89ba06ca333d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/nanohttpd" path="external/nanohttpd" revision="c6783c32331b3fe78ffd5077e7f180995d0e268e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/nanopb-c" path="external/nanopb-c" revision="5b443aa3a07539deffdc426a335c19777955ad0d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/naver-fonts" path="external/naver-fonts" revision="91e6e9f94d1d769a8f742649674149ba98ce7d45" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/netcat" path="external/netcat" revision="b023a43765b15f0b0fd5b52b7d8021f515c59c23" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/netperf" path="external/netperf" revision="e100a0c4105b94f7044b243287a5da22f5e8e4e7" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/neven" path="external/neven" revision="646a0338720a183c74de524277fbb542c53ff449" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/nfacct" path="external/nfacct" revision="5df745ccb4ef5356a786bf63e075efd0ccaad333" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/nist-pkits" path="external/nist-pkits" revision="fe530ae2c3d88eb5326151387028507b4949d751" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/nist-sip" path="external/nist-sip" revision="8445067c3b53e5bd56c32f1c4fb688083c4f4005" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/noto-fonts" path="external/noto-fonts" revision="e453ae6726e38193249ac0cd2c2798fc812e0983" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/oauth" path="external/oauth" revision="49f3624a6d3307b640a012f15b94d04174473501" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/objenesis" path="external/objenesis" revision="73ce7cc738555cfacf3bb6b279e15a5a62b9deb0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/okhttp" path="external/okhttp" revision="4b97e9d6dbb1a411c95bf5a7ce8edac47c1ab66b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/opencv" path="external/opencv" revision="507669d9a3c8adb2b415488783efe10bf9a6b3a3" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/openssh" path="external/openssh" revision="e25a792cd6ccd2e2081db5baca0d23f4bec85b88" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" revision="bbfb25464ff30c5a62dce351d719a8c533afb2a3" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/parameter-framework" path="external/parameter-framework" revision="247231a17211f56a96e6a595a9eedadc06231242" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/pcre" path="external/pcre" revision="3fe64bc73c25a0eb63f880b2ce5d892ebef6da03" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/pdfium" path="external/pdfium" revision="f0b9ecb9c7908309dd0e417088d13e320350922c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/piex" path="external/piex" revision="3369ad3455117d907eaedc515f9bf2c57ac5bc0b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ply" path="external/ply" revision="583d33c593896afeb8486a25fabfcf6e9dc9ca75" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/ppp" path="external/ppp" revision="90da8c8f15db2c82aece6e4085aaf9c116d481f2" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/proguard" path="external/proguard" revision="af893cdc1242e4cfbeeb10e2323f9a689a825177" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/protobuf" path="external/protobuf" revision="7b77cf5e318d2a69ff2dc928225b0f25d7d222dd" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/python/cpython2" path="external/python/cpython2" revision="f6f0581de161b429d9dc01c7c28c5d44b9e7af6b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/python/cpython3" path="external/python/cpython3" revision="9458f8e38d4fe0d58890c5867485dbbf2d538955" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/r8" path="external/r8" revision="be69fcefad315b2068a9903019108f879ca4db56" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/regex-re2" path="external/regex-re2" revision="79cce43a82abc1bc56c65de07a7df47d54e163a9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/replicaisland" path="external/replicaisland" revision="2851523aba8ad1139c5c92010f1117036f366bf7" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/rmi4utils" path="external/rmi4utils" revision="d45cae258a3d831cd035ccecb3daa763d26346df" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/robolectric" path="external/robolectric" revision="75900e02504ed3c3a5d17049344c352a8bcdbdaa" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/roboto-fonts" path="external/roboto-fonts" revision="a40bfa4b73e5e202b2613004b56893e1b2e7c5d4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/rootdev" path="external/rootdev" revision="3f7cc435321e5f1f538bbf5464c930857bb90d85" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/safe-iop" path="external/safe-iop" revision="cd76f998688d145235de78ecd5b340d0eac9239d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/scrypt" path="external/scrypt" revision="208c84a26f542b6dbc3a053215fe9b3fdecc53ae" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/seccomp-tests" path="external/seccomp-tests" revision="2d6805a0fe1e328d5281116cd39d250c5d29b049" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/selinux" path="external/selinux" revision="90efe04c55f82a7ea166c913405758fd91bc9aa9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/sfntly" path="external/sfntly" revision="5c0f9b6f883120352ab36637e72f13af0292d107" groups="pdk,qcom_msm8x26" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/shflags" path="external/shflags" revision="c4876e01829b8cf110ee33267bb1bad1f8ebb51d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/skia" path="external/skia" revision="b5326acc61437a77ffbc38b372786499d32d1b6f" groups="pdk,qcom_msm8x26" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/sl4a" path="external/sl4a" revision="e8b583cc62f4718529d4073c8de1021bb4d67633" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/slf4j" path="external/slf4j" revision="63b140791fbb0bceabc496bdd29e108d9597b044" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/smali" path="external/smali" revision="77df77eb2635d8dcfb8c15516317582fc9a82e4f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/snakeyaml" path="external/snakeyaml" revision="c2d7be0abdbdfae49db372518b7d460f5ac02b5f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/sonic" path="external/sonic" revision="c55984da5ea66d0fe4bd4d23855fe3ecaecdec72" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/sonivox" path="external/sonivox" revision="0e3e597c977d3957fa14968baa54c39e04f012f8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/speex" path="external/speex" revision="632f81fb1bc4cfeac822cc92e550dbe4a1458fd0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/spirv-llvm" path="external/spirv-llvm" revision="08b0dc5ecc4d6063b27153d2bbf4bc20fccd1162" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/sqlite" path="external/sqlite" revision="50f048a74e1658137f545d85ed46cde2fadbdd0d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/squashfs-tools" path="external/squashfs-tools" revision="8c214c801b59ca22b66a0f5cbb3c61af39311fc3" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/strace" path="external/strace" revision="5b70c8ffac1eddfa08e3e279cbacf88a62b90093" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/stressapptest" path="external/stressapptest" revision="ea469443e9c2cd1fda87188df2b1ffe0e30656b2" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/svox" path="external/svox" revision="7253266c4310c982eebb94eab714f64683ecbeaa" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/swiftshader" path="external/swiftshader" revision="c19f0404f673ac98f80c6e6478fdf22bc6bdfc6e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/syslinux" path="external/syslinux" revision="76d05dc695b06c4e987bb8078f78032441e1430c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tagsoup" path="external/tagsoup" revision="1302f5f68f0214445e6b7fb188c7759a32e8cf48" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tcpdump" path="external/tcpdump" revision="cdc1ad2018b5c9febc16bb191950c5a9a04b631e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/testng" path="external/testng" revision="2d09ec828c313edd6f9f5021c9b166854d742521" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/timezonepicker-support" path="external/timezonepicker-support" revision="99e91a76fd74bad10266623d67cdb98d011f709e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="8ccfcc2667591242d52cec39595b230bbc932dc6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tinycompress" path="external/tinycompress" revision="99efd7573faf0a1ca07e837dfad013b779d1d655" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tinyxml" path="external/tinyxml" revision="d4acc191fb8df5d1a2956949d088acc781c1b602" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tinyxml2" path="external/tinyxml2" revision="9d0bfe82a266d84a731b421427c551bb4c46b4d3" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/toybox" path="external/toybox" revision="f600cd59d034ecfc84c3848fb557db1259bd0c76" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tpm2" path="external/tpm2" revision="9e3a0bf49d35b38bb325f479faa6acf96516b8df" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/trappy" path="external/trappy" revision="d3ca91dd979b9e89029ae3bfae3f861b0c7bbdc4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/tremolo" path="external/tremolo" revision="bf16b0c3d73d729e6375eb6f161df0d3057126b9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/unicode" path="external/unicode" revision="1d15b7695581bf8fca39b4486615b014e7b72ce6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="bb9c22af2fd1b338780f95f74bebb56b2df5bba1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/v8" path="external/v8" revision="04a3686acaa3ae6a6042beaa41745c4f6a77e276" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/valgrind" path="external/valgrind" revision="51595f3cd618a6a27d6a359507d3379e3f0f9b3c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/vboot_reference" path="external/vboot_reference" revision="668a371cb0b026e207655e7adea09e7eb40a94e9" groups="vboot,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/vixl" path="external/vixl" revision="9f96104a3a3da9344c51c1e8c2a19a330162a892" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/vogar" path="external/vogar" revision="4c37f73c5965a086bd93b0494a765de473f915b3" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/volley" path="external/volley" revision="fd51dba5e6a4bb935fb4357a445848aee24eba11" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" revision="ce54fe72dcb23036a825a003a8a98a7d8eb04722" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/walt" path="external/walt" revision="52926e018b1a1dad067d25ba0eb2be8dc15d49fd" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/webp" path="external/webp" revision="c737077efb513cd18b47044c7def726822271db4" groups="pdk,qcom_msm8x26" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/webrtc" path="external/webrtc" revision="1fc82666196f76c22e310af85d6cf2e7485b9db6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="053a8d51e43ffee4a524cad985ae85a2e88a5c9c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/wycheproof" path="external/wycheproof" revision="46d28ac44a242d84d610a294a640266d3b0e033b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/x264" path="external/x264" revision="7bf0b975cdfd5692a4598ab09e1258abe5ea5fff" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/xmlrpcpp" path="external/xmlrpcpp" revision="c79d4eae757a81270915c2a7cf01c81b8d42785e" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/xz-embedded" path="external/xz-embedded" revision="5e2e69cfcf62e18fc8a5096701df8540e040f069" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/zlib" path="external/zlib" revision="5ce335946fc078f2273cf7bd7ade9b304d816c58" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/zopfli" path="external/zopfli" revision="069cb023c39358bc0e1b3dc0397b8fcdd84b4d44" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/external/zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/av" path="frameworks/av" revision="b2ac5d27d6788a15d8e18a51aa7641a72989ca50" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/base" path="frameworks/base" revision="0cfecc2aedc727c9814578570969256b07b4ab74" groups="pdk-cw-fs,pdk-fs" upstream="sandbox/sprdroid8.1_trunk_18a_pike2_daily_build/247_2018-06-14"/>
+    <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="8d1f0d7f4a9fe6611b2a435993e2642250f8bc9b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="821f636d0b881a930cfc284d4d82ae39862d3a3b" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="6a436c154e7942c76a84d937d0df02e575286d81" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/data-binding" path="frameworks/data-binding" revision="730dbee5d37be1cf54af5f8f76f817288c71c0de" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/ex" path="frameworks/ex" revision="a7242ac44435f2c81dff98400cbd7ca6793948c8" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" revision="89efd37ec3ac957e2190828644c0aa331e604bce" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="af970950be638cf64850a72e0b45d637dafb3f44" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/minikin" path="frameworks/minikin" revision="67c1fa2e09c30a4a428ff3753d24357339caf7bd" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/ml" path="frameworks/ml" revision="7341269c8b245dcc6743e125713230ff49350716" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/multidex" path="frameworks/multidex" revision="b288c36f55c976dfc1ac47c426b4adf60df4844b" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/native" path="frameworks/native" revision="d9d9fb96e3a668f48c2a62c40b8af3d0b67ee66d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="6dbe3ff8cdcf84bfcf2667300c08f01d938b1c93" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="3f01563afad6b3d2f0546a6260ef958a8173deb6" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/chips" path="frameworks/opt/chips" revision="4dcc54473877f29f7a0e930131afe8c91a8f7a35" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker" revision="b88657ec3ceb73a3600b6dbda8c546fcde8cd613" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker" revision="71db86e4102fc0a415b230e140e31a0e468c553e" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" revision="3baece9b20fa480da46d860acd7320fd9eee3386" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="9bc5192548c437b9ce61b9c32b9beff3ea9f112a" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="585df8fd1004902a2905f9e70d194f824b033b6f" groups="frameworks_ims,pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan" revision="f5790bd837a502b64cd038393f3ef1bc0ed4c284" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="78a7feeb2601037bba61aec5f24302896dace6bc" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="898f4bca9af64e375ac8fba31fd7dd47a7a15da0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="ef801c6dab680e021f259b443ce9fb0f0f10255f" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="e53b1b1838f8f846d97b9f9ad8e5b2f1b4039f3c" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="fc2fb593609ee97338d8013ef9b7eef63be5d22c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="632077f06c67a39fc99f891ad5299e3a6ea5202a" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="85331715651f9fb73cfc1aaa9cd410cdcea51a4c" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/rs" path="frameworks/rs" revision="c759113b42288ddce68765a04ba20fa5650557e1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/support" path="frameworks/support" revision="94d863eef685be8c4630593a259724ee7d49144f" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/webview" path="frameworks/webview" revision="ce867defdb6a1602a78e5137aed8a7f636d0a3e1" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="b3255b5b57c8c3d190f4b082a4d2bbd3e41abc16" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/akm" path="hardware/akm" revision="99e8b227cd00678ce863c04ebde0b8d9a6f7df5c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="7b8602a3fc26bbad5ee03cd87fd721bdc3e22442" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="a85f03f8af92c3450c9a68b31c6da0cf2206ad3e" groups="pdk,broadcom_wlan" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/google/apf" path="hardware/google/apf" revision="dd1877e2d3520cabaff9a9a6ef3437243a9c81be" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/audio_media" path="hardware/intel/audio_media" revision="0e60b77af3fa70393ee9fa0e80811d1b39c5f6fc" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/bootstub" path="hardware/intel/bootstub" revision="c759e5127aa582ac515ee1446da15f601b15a99a" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov" revision="8af329f2d2b54dfcfa84051d3ce1fae95f79011a" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix" revision="854b26a72943ff31cbf2812448dbb994259b3325" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/libstagefrighthw" path="hardware/intel/common/libstagefrighthw" revision="bfc9bda74643eedd4414e996d2a089a36d9acb24" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/libva" path="hardware/intel/common/libva" revision="a2ecca468b6b556c8f6ca23ca764424a42ed58d1" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/libwsbm" path="hardware/intel/common/libwsbm" revision="48a7d49ceaecce1256f02718e8fba2cfc8288674" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/omx-components" path="hardware/intel/common/omx-components" revision="03b21c59d82c8880c1389dc523a77cde5ba54207" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/utils" path="hardware/intel/common/utils" revision="8baa909f064fbe5f852edfbcecf8ecec35d30b5d" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" revision="80b810fba464a37568dffbd20a947fa080e92735" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/img/hwcomposer" path="hardware/intel/img/hwcomposer" revision="9e17651fb6abdce42a98fdad8fb4be4133993e77" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/img/psb_headers" path="hardware/intel/img/psb_headers" revision="3b022af1e9dfc016f535849fcbca570e97a06684" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" revision="4b31b9f79d8834e74ab2096fd5b88fb976f5e125" groups="intel,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/intel/sensors" path="hardware/intel/sensors" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed" groups="intel_sensors,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/interfaces" path="hardware/interfaces" revision="f18c6c066ea91450ab3fada6dccb4a722b1f5f90" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/invensense" path="hardware/invensense" revision="11e5ff75af866f91622b6008fa13db1c3685ae69" groups="invensense,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="bfba9a4893f2c40e814033e64500b795b5c7c792" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="7e46cfffd8c8db9547b4717b8408dd9b0cb83f29" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" groups="marvell_bt,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="95564f30bdbba5caba0674bf8c0ec645c3982dcc" groups="qcom,qcom_audio,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="2f294e58e7ed7d788d35569022f59cc9fd0d3e30" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="526fbb46c9f328ac844ca79b2a996ce6a7bb9c02" groups="qcom,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" revision="c6b4664ae094b5927f3c89465848dc4dd3b6ccbd" groups="qcom,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="850a21d0a1042d2fea1354341b6f4cec43b6ff11" groups="pdk,qcom,qcom_display" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="5498b94467937688fbf7927c4d95c10ab6e6c51f" groups="qcom,qcom_gps,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="b9d7a35c05cac901a65d09849f90f1b4146d10e8" groups="qcom,qcom_keymaster,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="af3b2cd2d31c023d1eabbb7a60c1eede1faf4a84" groups="qcom,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" revision="c25a431842a26b5756b58a9d4a42c776e0457ba2" groups="qcom_msm8960,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" revision="484a77bc26fa8d890d06140ec992144d78b44324" groups="qcom_msm8994,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/msm8x26" path="hardware/qcom/msm8x26" revision="85c1a5282ae28663335e55ce96a4c0487de6c578" groups="qcom_msm8x26,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/msm8x27" path="hardware/qcom/msm8x27" revision="8ff5c0057cbdecfa09410c1710ba043e191a2862" groups="qcom_msm8x27,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" revision="582b414269d8472d17eef65d8a8965aa8105042f" groups="qcom_msm8x84,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="3a098ee1f89c398b9d6e7b5dfae9c694994f8bc4" groups="qcom,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="8b94981ce47caac688d27fe222c3ce18b046e1ab" groups="qcom_wlan,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/hardware/ril" path="hardware/ril" revision="2ee1768d1adc898b9cd9c951dbe65e17a698a337" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="kernel/tests" path="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/libcore" path="libcore" revision="3fb0908674252a8303b658f45738fc39deff4ae6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/libnativehelper" path="libnativehelper" revision="053ebae63c776d01687ce0130d0943aa7043c20a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="542ef2d34f1aa23f2842c61bd69d0f2993cbcfed" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="3d740916343eac0bf52054f2baddf8a307a1f5d5" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="03b380b3e143b9f75cf53f00018e1554571590a1" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="956525423e51315015d6902e3b9487e72e9f4885" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="7a14e377afb353121141e229aa25e1239cf4166e" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="2a2a9bab692698e8e6cb8c39b6f84fc3963bffd7" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" revision="849c0aa26822983ea9a90290c34bd281cd7a5b69" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME" revision="33aaf7c717b31188d2d56543c3a52bf9e63c5d42" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/LensPicker" path="packages/apps/Car/LensPicker" revision="a909e7f4a5cd86cb5f4f3dd92c1f58747e5395dd" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer" revision="56dc94e864b6489a649483808649b4d5ad8ae0fb" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media" revision="e635970cd98709d0fbb551b6f4e7ba9cf2d5b9d4" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger" revision="9384b3e79ee27d120a6de8ae868d34f4a2d76cdb" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview" revision="1c8f3c027ea9c629f6b85151870e21ed1abad5bf" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio" revision="a29516efaf358bc97da59246c5c324347b70a92e" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" revision="623f808e79a14895377f6a43884fc56ace71b0e0" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream" revision="23ddcfe9b1d110fa2718ecff64c59651a660944e" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" revision="3506f3f39a1328465009ec080a741373b338bead" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/UserManagement" path="packages/apps/Car/UserManagement" revision="9391baedbf4ad645d7c125279a19d7a2b6b285f9" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" revision="a691ee57d307ed0fba653d168c5b86eea048548d" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="7e2a3a106b6e3f3b20b6e8f44acbcc14e9d2eeab" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="966f1d944fc5ef25fca2d693f4b4e5095bad3ae2" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="8bcc45495a5050f53db7c5f516848f920e63ba79" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="a4e9eb32109f07e3adf5006a2d546a01209fcb26" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="88ce979d22e0a5008a84d57bc753eb2c4f575b40" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="90fdbf7460fbd255194455331c6a38a7b8f41dd2" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="c873824b2a0fe3a3a8ec7232385641fe3a346f21" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="642f103fd064c90beff2f5a658cc7c8a96fb0281" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="e7b821732c67dc7a70cddd5e31315a91a36c4fb6" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="e6e93d41aa1c9191c20a638ddd3d8e499a8d094a" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="cce9ed73e23385fd1d4d2c916f397bd1f7e5c2b5" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="0183cfc7ec5c218ae271162e23d94f363da2e53b" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="7c6dcd4ba9162b50a60f6bfa6e897862c802921c" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="9c0143dd78a0c506869961be329ecac484a647e4" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="260afb7955ba1f6e50f84f0f4ec25b0297565c09" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="29a7128376610efd9ad19d121243b2b6ded12af4" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="7526e8668b5bc6ae592debde05d42f5b17a929a0" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="b4e5429f07dccd17f61778178e0a32c24c609106" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="3d73fba2754d527e5374d84072c0a41ec4df88c6" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="682a9266153e9ffc82f2abaf068a77f6c9dc72c6" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="1ba3b6f3445416458f50ac25e90dda7c0316b1f5" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="f85745e43321c91b4d14bbc946df839b258c0475" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="ea3b9a1f06fe8238a59d7052e122ba67d7ff3c3b" groups="apps_nfc,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" revision="433cc71bc412fff9b9ea8494f48a52876c994460" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="e5d03bcc8da9afcac285654d15ca1cb48cc93a92" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="d34cd791f8848b3ac4b413883f65f075727e262d" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="1e5d8a500dce6530a99cb952681889042dcfb63a" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="8bc7203762578b9d24d01f2ec014ba5b0bd57e26" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="23a01d1faf34d1834d816fffe6aedbe171909e01" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="df647dd103b4c7f875771f04ed9584ec8469bfc3" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="df06a3e2e355dedac378e37540b34412c0746796" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="7be949114ba3dd5d03bac24236b597bb441c5a5c" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="f47fff0421153f4c20d155df8d0864a7036bdb06" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="ea8e8288421b62906defb7154bed2be713dcab53" groups="apps_stk,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="8790d1eea7ac681a141a0c09e39911819af43739" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="fe46be2feb4ec6feaff28a0eb6f380d5b317626e" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="365fe89eba70d6f982e643ed49b77e9946a9166c" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" revision="9b45486c0e5461b3949f40c9d44bd65f9313d0c1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" revision="b6e5d0b8c27825f8cb6347bb5e784a506fbe8cc7" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="91d5f829ed83c1e53ee3125807cfe2b57b23ad2a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="5f2902835cea34ed7dae3a64402f2940928e2426" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" revision="3738a2bed165f4b4efd93fa104cd677933dde9ae" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="f99b1e82c9c8a70f3b3f1a97480c6fe4b7b912ba" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="54a1e0bf9a7d18cea6ba51576e96688c7a1afaa8" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" revision="85ca997d8265739e94b5bd9d19460c9b87b9ec59" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="33d26f5eedb3d3011762ce5b2de66e931bf64b35" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" revision="c8db7ae4721cdc44deae00ebe785ee83d45c84bb" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" revision="7b57971217bca1a43477dda1f0e958c11a3e367a" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="36e253b2b7c13dd8f3093e4203898c6ee5dd8415" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="cc4a51d47689c6e2fd2381794907fd7afc485430" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="a809841c3776e3ff1b6548e0864a8e202485b2b4" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="ecb12a8ca591f69f797c0a929c60e35981269700" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="db8ab96ca7ece5343f58cf27127aaf3f73715fcd" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="295c5634dd91013d648113b756dec98521abec00" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="64476ea7a9ee854bf99e3015625093bf76c1acd1" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" revision="37d3b35ef8011461531e937bd7e1171f7a3a95b4" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="2f4b90efc11698376451365bb801c511942e5a00" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" revision="461567a70880981c8ef55a02a1845ccf9822ca6f" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="da94e6f9123feec78ec45fde5a951a78f8167351" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService" revision="9140cf6dfd9abd5fdc0147f8db403211f80aa602" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/services/Car" path="packages/services/Car" revision="46ea14fddd3c38cc2b67ba042ad5fb9a9bfd1c82" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/services/Mms" path="packages/services/Mms" revision="33207cb3e427271b4481b4f9b248259d8005c203" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/services/NetworkRecommendation" path="packages/services/NetworkRecommendation" revision="b9c2f130c5f876ca0490c72a366345f6f3ccaa62" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/services/Rcs" path="packages/services/Rcs" revision="16294256b1b2f2b6c369347122defb1bddcef5ca" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="904b43df32c0b149cd99118b13fd3057f35c3662" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/services/Telephony" path="packages/services/Telephony" revision="8c6fb94d0c705ff3e668af1e40a3dcdd12695b1b" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="bf2959c0bd8a076f2a3b1ba876e18d4d2bf75dc2" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/pdk" path="pdk" revision="ae06b572170aa59182bb248a04e83d755de334da" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/platform_testing" path="platform_testing" revision="514c2541873d2b7f0bbd9732ca1400ad0c8de0d3" groups="pdk-fs,pdk-cw-fs,cts" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="9b4c58b905c1c92c1b8630d9da7c96b9a92e5ddc" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="a0ad82df9e4ceacfc60f7ebbf9779d3d92eeb773" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="400cd54dca1c329fd7f1c8cb9e40b1fbbf3f3af3" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="88fa20009d5581163b4656d52e2fcc1f56042da6" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="f6f661b424f646bc5ddf9e1b1e644abb492b7547" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="a8a50e922b39a2dba7e56030c660e1aabca168f3" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="f59dae743731eef0cf012408603291c253eed5c3" groups="pdk,darwin" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="ce80566d209ef0fba56e5bd4cc4cf11435f83a71" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="dd76bce9a2962e9f33feb65530650e13bea99830" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="2538644348d06278149f8f918930d058cb4f32a7" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="91a0cf84baffc9808b93554451e149b12f2ad6d2" groups="pdk,darwin,arm" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb" groups="pdk,darwin,arm" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="20aadb937757fdff11c09010765f63c20ebb5042" groups="pdk,darwin,arm" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="ec5aa66aaa4964c27564d0ec84dc1f18a2d72b7e" groups="pdk,darwin" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" revision="d942564c9331f07026a8f78502d8571206eb7be4" groups="pdk,darwin,mips" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="4e41eb8af41e0ed06d8237a4de8c75e2c3698f79" groups="pdk,darwin,x86" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="c9c4fb77a024d2610f83e54e536c99a964ea85ab" groups="pdk,linux,arm" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a" groups="pdk,linux,arm" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="43bf3bf040b873cb1334cdc0687a03d8d6f4b1c8" groups="pdk,linux,arm" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="a706ab3bc2ac5168166659d6423da4b8b8e8644b" groups="pdk,linux" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="12eccb2e29b05b39fa83e5299b1f4486b9e743a4" groups="pdk,linux" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e76a9a506d7ad132f107eb2f7c27b6a8ccb68b91" groups="pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" revision="388fdc4995d374d76a0c4b292afabac91638e134" groups="pdk,linux,mips" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="a57c546eec04da569ddd24dd72b0d57feb95845a" groups="pdk,linux,x86" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/go/darwin-x86" path="prebuilts/go/darwin-x86" revision="d240e4f742d2799a3b4bf1ba4d695d0e28dc9040" groups="darwin,pdk,tradefed" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="9802e351bf16f8137807da945a4bc36371a16be6" groups="linux,pdk,tradefed" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="cd1b6806eae4eaa88d82ce61dbb7c2bcfea1f96a" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="68dabb15582c2e86c9a5ef863e193892b7843792" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" revision="d32685dba4011664b590b94ad156bc734c2c9bb5" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" revision="c7fc1cdb67ff477e4ef1f7dee12568f223ea18c7" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" revision="268c5495b8003e09173a1ae7b1e9dc9b019e300d" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/misc" path="prebuilts/misc" revision="598387341a7104f2bd46fca3e2c1161bce609de3" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="f39cb3e537ad90d4985fc372b339d466799d964e" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" groups="darwin,pdk,pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="49b50adb1a149100905b368570c2cb56cadc0854" groups="linux,pdk,pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="f6c67ee769fe60073615ce211e15b746755c04bf" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="692a2a62d5862258c6a88d3b9bfcbc1dd0431ae8" groups="pdk" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="bd037f3696cc33196a876c34a7f5a0dcc6e089ee" groups="pdk,tools" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="platform/sdk" path="sdk" revision="f5815cfdb76e746412d6c86ba6b0675f5132bd87" groups="pdk-cw-fs,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/bt" path="system/bt" revision="a354a26678fa30f88a34e09565f654daf729ed75" groups="pdk" upstream="sprdroid8.1_trunk"/>
+    <project name="platform/system/ca-certificates" path="system/ca-certificates" revision="93fc85e19c5e5ac4c11f893d87a3bc5bbbac4c6d" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/chre" path="system/chre" revision="b65be154ef4337ca1e0077f11565f1c3c5419aa2" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="d1c9d121fe9e6334ee08ee8d2752c5794c2d75b4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="7f63780db20de42556d24704fabc3679569a2528" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/core" path="system/core" revision="06b4e71172cad48a82245e5e2bff169cc4527dc8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/extras" path="system/extras" revision="c4f98c6bf4b2e4480635c935213118c3c80cf3a7" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/gatekeeper" path="system/gatekeeper" revision="e21a73530e490999057921c5aad86226967a71a1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="a741a1eaec60b94b00807f9e7c23729545cbd32a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/hwservicemanager" path="system/hwservicemanager" revision="7914698a2112da25bcfd306db75b96d9c8966e7a" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/keymaster" path="system/keymaster" revision="fc0cbbe8fa283dda51c4850c680a2143966cfe69" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/libfmq" path="system/libfmq" revision="46ed3ce70e84aa8fa69fb3c96592dbe13335a721" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/libhidl" path="system/libhidl" revision="3aa8b56d426dc27585b2b801b874c6026eeda7b8" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/libhwbinder" path="system/libhwbinder" revision="88378be8a2ff7938dabc2164a20c2421304aa6d4" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/libufdt" path="system/libufdt" revision="58a7582180f477032cd6c74f8d9afad0038e74c3" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/libvintf" path="system/libvintf" revision="32dd13574e94c8b64d75c4dd8c81703c6a4315e1" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/media" path="system/media" revision="0ab42616ae060b2a0d97aa71da3c36b18ee692e9" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/netd" path="system/netd" revision="1269a06e7b4174598d51ecf88b0a1b0d1d27f806" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/nfc" path="system/nfc" revision="420e853f2faf0554dabb058b569f3fe08959bcf0" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/nvram" path="system/nvram" revision="a2cbda182e4631dc45b3e988db9a6c0a0c36a610" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/security" path="system/security" revision="1e7555b8fb3dbac54cd380962afc06b2e8787a41" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/sepolicy" path="system/sepolicy" revision="252f76697c719ced0751eb450c1e7b3006239c0c" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/timezone" path="system/timezone" revision="102e3a951adf1c6362a474f2b8362bc2b6517c72" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/tools/aidl" path="system/tools/aidl" revision="3cbb4bf3d8d7b9e99ec1d2f75aab93034bdf3f03" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/tools/hidl" path="system/tools/hidl" revision="27e92281c6dd46df3fd42eb84ad0f1f042b062c6" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/update_engine" path="system/update_engine" revision="38d5e326f181677fc04595b511da7ffaaaeeaafe" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/system/vold" path="system/vold" revision="d43c2d01596b053ce34f1ce675a4a595e9902c83" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/framework" path="test/framework" revision="246492cf54d880214952e9cbb1ea490cbdd56f52" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/sts" path="test/sts" revision="8ca74989e8be730e22e861ef49c1bb8963fac565" groups="sts,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vti/alert" path="test/vti/alert" revision="2270d160e38f0623d708cce36754fe14168dce64" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vti/dashboard" path="test/vti/dashboard" revision="4b5e68eeff3ed15b38229e9a1af0052455e141bb" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving" revision="8c282aac33bbb047e9feb0645c89ce4079c8d29c" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vti/test_serving" path="test/vti/test_serving" revision="0a064803e1ebbfd5e587e9baf677d458a4e3bbd8" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vts" path="test/vts" revision="c0f050fafac76ff3fcf22b893366ceab9518df7e" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vts-testcase/fuzz" path="test/vts-testcase/fuzz" revision="550756ea9fbad2d457572728cb8e90cba88a7607" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vts-testcase/hal" path="test/vts-testcase/hal" revision="4599ab3aa3110989745a5d56a1239dedd58b2fb3" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vts-testcase/hal-trace" path="test/vts-testcase/hal-trace" revision="369cb6082de1479d0416737dbde6d567fb0194c2" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vts-testcase/kernel" path="test/vts-testcase/kernel" revision="3b3696513ae63c00bf08266d93b149fb0004ef6d" groups="vts,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vts-testcase/performance" path="test/vts-testcase/performance" revision="b812cd9af0ef20e51bbf9a4a24a577c6b2e585b9" groups="vts,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk" revision="69fdb035569978319eb451e3551f3c6d71d0b78a" groups="vtsi,pdk-fs" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/tools/acloud" path="tools/acloud" revision="b34b63ebf5f1677488dd792a8fc8f3341225e8f0" groups="tools,vts,pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/tools/apksig" path="tools/apksig" revision="1c40dc60b266ed2f4cc4247128d8feb117ad92c7" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/tools/loganalysis" path="tools/loganalysis" revision="67b8a30dfd72a155dee5d77a12755c78daaf9d9e" groups="nopresubmit,pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/tools/repohooks" path="tools/repohooks" revision="fe49310df3a905d60ffdc123ad15f826e289e8e5" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="d1f45591607cd81b11034011ed422eceb6ad7663" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="d86b4a919ddf6e7c46602bdcc4d45ab3181cb84b" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="8dd3029197cdaa6d9e867d4c645b489a6f9f52b6" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/vendor/google_tradefederation" path="vendor/google_tradefederation/core" revision="854d938780b8218745c5c9e698e5482190611140" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/vendor/google_tradefederation/contrib" path="vendor/google_tradefederation/contrib" revision="510cce7dec67b8944cde963611fb39a459ee7d31" groups="pdk,tradefed" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="platform/vendor/google_vts" path="vendor/google_vts" revision="e275d8d2c4d2cc4b9f91031a9f39911953e3ce14" groups="vts,pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="toolchain/binutils" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" groups="pdk" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/sprd/sharkl2" path="device/sprd/sharkl2" revision="e031f2cd7f0947f171ea758e1cdbe35b54457ee1" groups="device,sprd,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/sprd/sharkle" path="device/sprd/sharkle" revision="0c2350911d2d4c432fb6a6d4b5688c9fc3335f4c" groups="device,sprd,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/sprd/sharklep" path="device/sprd/sharklep" revision="e64acd07f73e41e8194b06c2e17d264417b06a11" groups="device,sprd,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="device/sprd/pike2" path="device/sprd/pike2" revision="6920a967edada4d92bde9a46720a0c6c3245f83e" groups="device,sprd,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/external/gcc-linaro" path="prebuilts/gcc/linaro-x86/aarch64/gcc-linaro-4.8" revision="35792e28c383fb398e9952732d327f3ccbb1e870" groups="device,sprd,tools,linaro" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="u-boot15" path="u-boot15" revision="19be7f2dce982a2ff9dd0c338b4f2af0e8af195f" groups="device,sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="u-boot64" path="u-boot64" revision="0423b6f3c21715d594b64534330e529d000fed1b" groups="device,sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/build" path="vendor/sprd/build" revision="4da1c6ee9c19f527c5358e66a7fc4016e77adbaf" groups="sprd,tools,device" upstream="sprdroid8.1_trunk_18a" clone-depth="1"/>
+    <project name="vendor/sprd/external/drivers/gpu" path="vendor/sprd/external/drivers/gpu" revision="f3483da86cf1c8747f86cd650973e2c52c82127f" groups="device,sprd,sprd_graphic,driver" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/external/kernel-headers" path="vendor/sprd/external/kernel-headers" revision="e46c0eff1e7e26d04c734afb3367555b6cd75c9a" groups="device,sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/external/tools-build" path="vendor/sprd/external/tools-build" revision="fc4b49274e97e94ab8a4b6a65d45e5bd78fdd690" groups="device,sprd,tools" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/exfat" path="vendor/sprd/proprietories-source/exfat" revision="6965ef08d85a86ce5ebb7c9586ef6b03cab53421" groups="device,sprd,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/pathwrapper" path="vendor/sprd/proprietories-source/pathwrapper" revision="7eba011e470ea54b1c6be058d2ba5f60ac618dcb" groups="sprd,tools,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/resource/cdrom" path="vendor/sprd/resource/cdrom" revision="ed527d4c88356532b2c607a52d5f8aba126edd0b" groups="sprd,sprd_res" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/board_configure_tool" path="vendor/sprd/tools/board_configure_tool" revision="b711da1cd93c6b628d90be6a240f3f12f8f2bacc" groups="device,sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/swap" path="vendor/sprd/tools/swap" revision="83dc548dd5ad3c41e7e77a4ea8ec2f1f70c80f87" groups="device,sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/libatci" path="vendor/sprd/modules/libatci" revision="9219d187a0e80440e4eacec23ab289430aee4065" groups="sprd,sprd_tele,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/radiointeractor" path="vendor/sprd/modules/radiointeractor" revision="cc2bef4a92c55c2d8bbba36885d353bda57d86a6" groups="sprd,sprd_tele,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/csvt" path="vendor/sprd/proprietories-source/csvt" revision="9a18e006a60b8f7691cf9f3d33fe988e8573e745" groups="sprd,sprd_tele,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/dhcp6" path="vendor/sprd/proprietories-source/dhcp6" revision="d9056c9186804a8af221a6419241c1a3b3311de8" groups="sprd,sprd_tele" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/ims" path="vendor/sprd/proprietories-source/ims" revision="289bb97480b7e98136e89c49aadaed14a5533bc9" groups="sprd,sprd_tele,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/iqfeed" path="vendor/sprd/proprietories-source/iqfeed" revision="fe7899b33aa4f400752b465f06b578dd9cd9f568" groups="sprd,sprd_modem,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/modem_control" path="vendor/sprd/proprietories-source/modem_control" revision="ee82ee3e25ae062f6c9d5bcfafac482187bad7c4" groups="sprd,sprd_modem" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/modemd" path="vendor/sprd/proprietories-source/modemd" revision="dfb122211b81906b5cbcffff546d637f93f86e6b" groups="sprd,sprd_tele,hal,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/modemnotifier" path="vendor/sprd/proprietories-source/modemnotifier" revision="be1a25550ea94f1cc546e9fdc3a422c8bd08c84c" groups="sprd,sprd_tele,sprd_apps,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/nvitem" path="vendor/sprd/proprietories-source/nvitem" revision="a3f1390ab21a0750b9387990623886abf22d3ed5" groups="sprd,sprd_modem,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/phoneserver" path="vendor/sprd/proprietories-source/phoneserver" revision="84cad2e5600921227a4db593c3bda50e989f26d9" groups="sprd,sprd_tele,hal,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/radvd" path="vendor/sprd/proprietories-source/radvd" revision="706664ea199bb0633b06baa3a2808a69e6a9609c" groups="sprd,sprd_tele" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/refnotify" path="vendor/sprd/proprietories-source/refnotify" revision="66317d2fe94341bc6f26a886215c7d107fb93f0b" groups="sprd,sprd_modem,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/ril" path="vendor/sprd/proprietories-source/ril" revision="eb034d39bcefbef9bb9b0c3d776952186889bace" groups="sprd,sprd_tele,hal,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/slogmodem" path="vendor/sprd/proprietories-source/slogmodem" revision="b2e7fa9dc67d57f25ff75e2ae73bb3d2ca2ab12d" groups="sprd,sprd_modem" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/dpu" path="vendor/sprd/modules/dpu" revision="88b0f9f92ec3951959e77570674fb06ead721835" groups="device,sprd,sprd_graphic" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/enhance" path="vendor/sprd/modules/enhance" revision="f31fba0db4dbb26f9f3d2eb5ad244bae322d7c93" groups="device,sprd,sprd_graphic" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/gsp" path="vendor/sprd/modules/gsp" revision="42f6779bd41377ce11d4a2c231ed64e387363315" groups="device,sprd,sprd_graphic,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/memtrack" path="vendor/sprd/modules/memtrack" revision="23ad4c980eb45ffc7aeda4dbcdb6b560bc7d5bed" groups="device,sprd,sprd_graphic" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/libgpu" path="vendor/sprd/proprietories-source/libgpu" revision="f6952e1a9a77a3236e2d11c2a3ad7fc04cbe8c1c" groups="device,sprd,sprd_graphic,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/external/iperf" path="vendor/sprd/external/iperf" revision="bb70d975b6afa79400bdfeda69e47fb5d45fccc3" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/external/tools-coding-style" path="vendor/sprd/external/tools-coding-style" revision="2d5813e6eef7d6f63746d12062ca2577f1457fff" groups="sprd,tools" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/audio" path="vendor/sprd/modules/audio" revision="a0ec4fb93a6f093d65bc5d3885aceb1ebf353652" groups="sprd,sprd_media,hal" upstream="sandbox/sprdroid8.1_trunk_18a_pike2_daily_build/247_2018-06-14"/>
+    <project name="vendor/sprd/modules/resampler" path="vendor/sprd/modules/resampler" revision="5b844449b6bb84513f2d56d6732995c598fcdd79" groups="sprd,sprd_media,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/agps" path="vendor/sprd/modules/agps" revision="7e297c8ff6d5e21faaeba09bfae45b4beaefeb89" groups="sprd,sprd_gps,hal" upstream="sprd-8.1"/>
+    <project name="vendor/sprd/modules/gps" path="vendor/sprd/modules/gps" revision="7996412b986fc0c4c96f5632cf739577d6d336f1" groups="sprd,sprd_gps,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/gpsfirmware" path="vendor/sprd/modules/gpsfirmware" revision="1533c7e7223cc035138cf86be346bc3cefd38505" groups="sprd,sprd_gps" upstream="sprd"/>
+    <project name="vendor/sprd/modules/wcn" path="vendor/sprd/modules/wcn" revision="832d4c25e8321fb06b340f3ebf196072824afb31" groups="sprd,sprd_wcn,hal" upstream="sprd-8.0"/>
+    <project name="vendor/sprd/modules/wlan" path="vendor/sprd/modules/wlan" revision="10cf4ffe6ac361cd24854ac260e7394d08cf51e8" groups="sprd,sprd_wlan,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/brcm" path="vendor/sprd/partner/brcm" revision="647ef07555974d0ed566fc478c26fa48e2d2f050" groups="sprd,sprd_wlan,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/samsung" path="vendor/sprd/partner/samsung" revision="956072c07ab4da518fb11ecacabd61d2a8620c0e" groups="sprd,hal,3rdp" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/connmgr" path="vendor/sprd/proprietories-source/connmgr" revision="e47219a530a0e8a4d0a88d756eb443b1550181c3" groups="sprd,sprd_wlan,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/download" path="vendor/sprd/proprietories-source/download" revision="07f5ae88376e91b817a431c7a6c16977a6867ad3" groups="sprd,sprd_wlan,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/UdpDataInspect" path="vendor/sprd/proprietories-source/UdpDataInspect" revision="23839a9ee24a8ad489eb8d2b42d633045f1e8c3b" groups="sprd,data,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/volte_engine" path="vendor/sprd/proprietories-source/volte_engine" revision="470f59c4d5a30fccd123841e3e83777fec4e1f6c" groups="sprd,data,hal,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/lights" path="vendor/sprd/modules/lights" revision="4eae9ae3e65079013fb9afb92063b81e254a83f1" groups="device,sprd,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/BluetoothReverse" path="vendor/sprd/platform/packages/apps/BluetoothReverse" revision="676e3640fb7da4b1dd6240b774c6d2c2eacd42bb" groups="sprd,sprd_debug,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/EngineerInternal" path="vendor/sprd/platform/packages/apps/EngineerInternal" revision="37b0c01fc8333afa46b7bfd69bed23507c2511ee" groups="sprd,sprd_debug,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdWifiP2pShare" path="vendor/sprd/platform/packages/apps/SprdWifiP2pShare" revision="7de7039d8e8f04838bacdf970d474fb66ed70869" groups="sprd,sprd_debug,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/calibration_init" path="vendor/sprd/proprietories-source/calibration_init" revision="74e4f8d1420febeb909c47d948462900aa7c2bc2" groups="sprd,sprd_factory,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/dataLogDaemon" path="vendor/sprd/proprietories-source/dataLogDaemon" revision="2a52bb81c17cf0c6c70f8c8515dbb751696475b5" groups="sprd,sprd_debug,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/engmode" path="vendor/sprd/proprietories-source/engmode" revision="dbd33911dcbe2c8e5b7fef4fbb7f82826541c6c5" groups="sprd,sprd_factory" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/ext_data" path="vendor/sprd/proprietories-source/ext_data" revision="b30ba2b3a581488fa4ded5d58462aefb331d3c64" groups="sprd,sprd_debug,tools" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/factorytest" path="vendor/sprd/proprietories-source/factorytest" revision="0f0cde7e49fcd266d9a32d6ddd03aab92f499524" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/iodebug" path="vendor/sprd/proprietories-source/iodebug" revision="aec84adbd6249d772ee6ddb0fa052e2983e9653d" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/libbm" path="vendor/sprd/proprietories-source/libbm" revision="023e517318ba1e50e0c56ccd3dce0953804641b5" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/proprietories-prebuilt" path="vendor/sprd/proprietories-source/proprietories-prebuilt" revision="2639a786d1537015a1c472185ed0a85818f258cd" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk"/>
+    <project name="vendor/sprd/proprietories-source/SprdCommLogService" path="vendor/sprd/proprietories-source/SprdCommLogService" revision="231c9d1f302151cea345ea5cc5e87a1692ab7948" groups="sprd,sprd_debug,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/sprd_debug" path="vendor/sprd/proprietories-source/sprd_debug" revision="25a26f643991fd99a268626a482660f0eef393aa" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/ylog" path="vendor/sprd/proprietories-source/ylog" revision="8381a195aab66eaf04466e886c98a4198fd92e13" groups="sprd,sprd_debug,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/aprd" path="vendor/sprd/tools/aprd" revision="8d0e132a7774c8bd6955ef10774a2b5376193ab5" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/benchmark" path="vendor/sprd/tools/benchmark" revision="8eb8f18494e09390443adc45d064c13ca2b8cc81" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/busybox" path="vendor/sprd/tools/busybox" revision="ebca408b8f59aaa87acec415ce697b27008f5faa" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/cost_mem" path="vendor/sprd/tools/cost_mem" revision="ae116e876f1b968e0cbd984df19b8f6339e8ae9a" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/crash" path="vendor/sprd/tools/crash" revision="5af083012205dbe03f2fbf24eef65ebfd6e64f22" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/DDRScan" path="vendor/sprd/tools/DDRScan" revision="af05027bd6bff85cb232d2f9be6e56093e57927e" groups="sprd,sprd_debug" upstream="sprd"/>
+    <project name="vendor/sprd/tools/eng_app" path="vendor/sprd/tools/eng_app" revision="693f9b0c0975644b7eefdadc8fd2be4ade95f9bd" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/gator" path="vendor/sprd/tools/gator" revision="123d80ae9450c7fc16d0c00b9b7296c35428a15a" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/ISPtool" path="vendor/sprd/tools/ISPtool" revision="cf653892f36d3bf2d6c5d39cdfe546b341663008" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/lookat" path="vendor/sprd/tools/lookat" revision="864e723d7b7b37c0110a95f7ec7ba4bc64e74a12" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/memtester" path="vendor/sprd/tools/memtester" revision="4f7e197ef8dc2d875c0a7b7a5bda96ca41c18e2f" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/MUITools" path="vendor/sprd/tools/MUITools" revision="9b850cc0c23943b40d0c066864e7f962ada24cdd" groups="sprd,tools,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/phasecheckserver" path="vendor/sprd/tools/phasecheckserver" revision="e149d9966815950c8731ee74cb68fab162b6475e" groups="sprd,sprd_factory" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/root_cmd_service" path="vendor/sprd/tools/root_cmd_service" revision="3f3f47beaf5895884e989b75e8d807b394395a5c" groups="sprd,sprd_debug" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/srt" path="vendor/sprd/tools/srt" revision="2b61caa1917a19d1b4c811e15e80df6db31d09a5" groups="sprd,sprd_debug,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/usage_count" path="vendor/sprd/tools/usage_count" revision="b113d1ee2d13d6c84abc732fe70f8c76200d8820" groups="sprd,sprd_debug,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/power" path="vendor/sprd/modules/power" revision="9093f2831a015e7bffd63b40c10c473ada29fc32" groups="sprd,sprd_power,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/charge" path="vendor/sprd/proprietories-source/charge" revision="0daa3d04a5967730ec1f07deb655a05940de4c44" groups="sprd,sprd_power,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/lmfs" path="vendor/sprd/proprietories-source/lmfs" revision="9e7d61fe6bd90f60f3629943aa6aa503f38111fe" groups="sprd,sprd_memory,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/thermald" path="vendor/sprd/proprietories-source/thermald" revision="0c5c4d088dd4c2ac519b8824ec7acae3d2b86b4b" groups="sprd,sprd_power,deamon,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/tos" path="vendor/sprd/modules/tos" revision="2314e7024d4a46a7a1e4c5894c31a2a63bc99a68" groups="sprd,sprd_security" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="whale_security/ATF/arm-trusted-firmware-1.3" path="vendor/sprd/proprietories-source/arm-trusted-firmware-1.3" revision="4d9ccc2585eff087ebfefb8883a8724fb52a8875" groups="sprd,sprd_security,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="whale_security/ATF/arm-trusted-firmware" path="vendor/sprd/proprietories-source/arm-trusted-firmware" revision="b4669bd73d6bdbd05f0a2b0c254e7dfcfac42868" groups="sprd,sprd_security,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/CustomizedNetManage" path="vendor/sprd/proprietories-source/CustomizedNetManage" revision="6ef13e5d9451e9087aa7a7009ddeb1227610ebb4" groups="sprd,sprd_security,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/packimage_scripts" path="vendor/sprd/proprietories-source/packimage_scripts" revision="0dce51b1ae1319ea107ea3a813b9b324ece8c9fb" groups="sprd,sprd_security,tools,device" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/packimage_source" path="vendor/sprd/proprietories-source/packimage_source" revision="dfe87d436754d09effac9b75cbedd881c8fc1a7c" groups="sprd,sprd_security,tools,device" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/sprd_secure_boot_tool" path="vendor/sprd/proprietories-source/sprd_secure_boot_tool" revision="805a9c5484f8771afec33c2bbbcd0a09d36cd74b" groups="sprd,sprd_security" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/sprd_verify" path="vendor/sprd/proprietories-source/sprd_verify" revision="ee76f4c130ff3d903419ef61063ce2cbc2cc98a4" groups="sprd,sprd_security,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/trustzone" path="vendor/sprd/proprietories-source/trustzone" revision="262e48646812e00c41ce0a4b89d598c5fc87a816" groups="sprd,sprd_security,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/ifaa" path="vendor/sprd/proprietories-source/ifaa" revision="10d73b3ad2b9c63093df8610205c08f43060eba6" groups="sprd,sprd_security,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/mcp_gen" path="vendor/sprd/tools/mcp_gen" revision="db47bdffde8f1f49aee521eef1f21f4ba5206fa4" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/tools/ota" path="vendor/sprd/tools/ota" revision="2e6e7b41deb67cc5318d95a3dcf58d4038ea5bbd" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/aosp-images" path="vendor/sprd/partner/aosp-images" revision="8928f8dcc3a9918be01491e18875b7c193a75f9f" groups="sprd,idhdel" upstream="sprd-8.1" clone-depth="1"/>
+    <project name="vendor/widevine" path="vendor/widevine" revision="075b64958d3a36fcf527e232494f7a679975af12" groups="sprd,idhdel" upstream="oc-mr1-widevine-release"/>
+    <project name="vendor/sprd/proprietories-source/ims_bridged" path="vendor/sprd/proprietories-source/ims_bridged" revision="521f54392d6f76249338a8372558e35d7fa64d4a" groups="sprd,sprd_vowifi,idh" upstream="sprd-8.0"/>
+    <project name="vendor/sprd/proprietories-source/ImsCM" path="vendor/sprd/proprietories-source/ImsCM" revision="4fea97a821c855b1436dea45cbf18de87e97b988" groups="sprd,sprd_vowifi,idh" upstream="sprd-8.0"/>
+    <project name="vendor/sprd/sprd_vowifi" path="vendor/sprd/sprd_vowifi" revision="9b08fbbdcef349f44ad53c9b0b48b009f562bc46" groups="sprd,sprd_vowifi,idh" upstream="sprd-8.1"/>
+    <project name="vendor/sprd/platform/packages/apps/AppSecurity" path="vendor/sprd/platform/packages/apps/AppSecurity" revision="2d20fb281378ec9f3091a9ac147bd440fcf4f395" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="kernel/common" path="kernel" revision="18f2a344da0a0e7d90965bba137fd24a4c2b4c4c" groups="device,sprd" upstream="sandbox/sprdroid8.1_trunk_18a_pike2_daily_build/247_2018-06-14"/>
+    <project name="vendor/sprd/modules/devdrv" path="vendor/sprd/modules/devdrv" revision="e58da5fdb20d4c4b6ff5a4f362cbc2f342c67edf" groups="device,sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="chipram" path="chipram" revision="806847e821e90ffe0ee96ebc6a221b5c305ecd8f" groups="device,sprd" upstream="sandbox/sprdroid8.1_trunk_18a_pike2_daily_build/247_2018-06-14"/>
+    <project name="vendor/sprd/modules/hwcomposer" path="vendor/sprd/modules/hwcomposer" revision="5693364f432c31b04974c1724d0c67652f1d2dee" groups="device,sprd,sprd_graphic,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/libcamera" path="vendor/sprd/modules/libcamera" revision="4af909339adae25ae732206cdee779e7d04a0714" groups="sprd,sprd_camera,hal" upstream="sandbox/sprdroid8.1_trunk_18a_pike2_daily_build/247_2018-06-14"/>
+    <project name="vendor/sprd/modules/libmemion" path="vendor/sprd/modules/libmemion" revision="13d5d342c8662bfdc57ba72efb37d535d3e2942b" groups="sprd,sprd_media,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/media" path="vendor/sprd/modules/media" revision="eb045e31c892fed8789c0b73217fbf783e228253" groups="sprd,sprd_media,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/sprd_codecs" path="vendor/sprd/proprietories-source/sprd_codecs" revision="4f620c4a2f6ef9bd6e46d256c19d963e9ad3f328" groups="sprd,sprd_media,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/modules/sensors" path="vendor/sprd/modules/sensors" revision="d72b2fd889cc6acb80819f1f28389c044ca88131" groups="device,sprd,hal" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/proprietories-source/autotest" path="vendor/sprd/proprietories-source/autotest" revision="c4d5c9f7c41911eb0568a5dc9d284a8e987f36da" groups="sprd,sprd_factory" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces" path="vendor/sprd/interfaces" revision="7c2a91b5c1cde267233184e96800820209c8d1d1" groups="sprd,sprd_tele,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/radio" path="vendor/sprd/interfaces/radio" revision="1ead9889894789cc014a3c516e24b5848c302f9a" groups="sprd,sprd_tele,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/enhance" path="vendor/sprd/interfaces/enhance" revision="2d10eebde959a97f69ee21432f44cde42fc27284" groups="sprd,sprd_graphic,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/thermal" path="vendor/sprd/interfaces/thermal" revision="687581465f3b30105d1b062708f228b043aacc01" groups="sprd,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/wifi" path="vendor/sprd/interfaces/wifi" revision="838f48233b9c183401b07cf97a236f462e5a7426" groups="sprd,sprd_tele,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/connmgr" path="vendor/sprd/interfaces/connmgr" revision="5c6da8a51170abf3a65935b7cebccefe0673d4de" groups="sprd,sprd_wlan,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/gnss" path="vendor/sprd/interfaces/gnss" revision="ec77dcbc160a6180886dafaec416c7701cade62b" groups="sprd,sprd_gps,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/tests" path="vendor/sprd/interfaces/tests" revision="72f787f58a754c63bdb45dca50069fd35e196c0c" groups="sprd,sprd_debug,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/log" path="vendor/sprd/interfaces/log" revision="9bc829ff572fec08143bbd8e5e65c39b442a006e" groups="sprd,sprd_debug,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/power" path="vendor/sprd/interfaces/power" revision="e27319a726d2620b34a8ad47480be306f78edc95" groups="sprd,sprd_debug,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/interfaces/ifaa" path="vendor/sprd/interfaces/ifaa" revision="2fb30b6a6b1e9186b53fbf1f4930a36d9820640a" groups="sprd,sprd_security,sprd_hidl" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/feature_configs" path="vendor/sprd/feature_configs" revision="1ae87c747b2c3089d257b2edc65411031300c8a7" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/external/zxing" path="vendor/sprd/platform/external/zxing" revision="e78e30b641b547dedc3dc37b591ca3f11b20785d" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/av" path="vendor/sprd/platform/frameworks/av" revision="758eae5cf87ef974f4781aa06ceb587492a0474a" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/base" path="vendor/sprd/platform/frameworks/base" revision="0dde7acb7f038ba22fc9917d944a09496bd7e3a1" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/base/packages/WallpaperCropper" path="vendor/sprd/platform/frameworks/base/packages/WallpaperCropper" revision="ab1cad640610e9c384d937f31446f2999db41680" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/ex" path="vendor/sprd/platform/frameworks/ex" revision="dee8789a48bba9e0d57c765a87d01cff71a2de1a" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/native" path="vendor/sprd/platform/frameworks/native" revision="afb09dac02778890f875976c3b38473dabad87c4" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/setupwizard/library" path="vendor/sprd/platform/frameworks/opt/setupwizard/library" revision="24cf9a75244689298339495ee28e3bb799732708" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/setupwizard/navigationbar" path="vendor/sprd/platform/frameworks/opt/setupwizard/navigationbar" revision="ba899b30ca9af14381b25f23506c2647b890838d" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/chips" path="vendor/sprd/platform/frameworks/opt/chips" revision="1744d414370635f454bd59fba305da31e6159fbc" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/colorpicker" path="vendor/sprd/platform/frameworks/opt/colorpicker" revision="631ea9190092e242b3a417dda425566d010593aa" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/datetimepicker" path="vendor/sprd/platform/frameworks/opt/datetimepicker" revision="abfe4e6a6058989ed466f035ae94012ab847c8fb" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/photoviewer" path="vendor/sprd/platform/frameworks/opt/photoviewer" revision="c6a7fb01b2a47ab7301f4f36b957d8d0c3b31078" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/telephony" path="vendor/sprd/platform/frameworks/opt/telephony" revision="e9c1bae1d4a643d35286befaa82a7647150e3fc4" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/opt/timezonepicker" path="vendor/sprd/platform/frameworks/opt/timezonepicker" revision="c2d44ebfd8d6128b474310df5b9920f3bfdb3067" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/EmergencyInfo" path="vendor/sprd/platform/packages/apps/EmergencyInfo" revision="a1247ccfd44b6db7feb403de6a1523b38a3187da" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk"/>
+    <project name="vendor/sprd/platform/packages/apps/HTMLViewer" path="vendor/sprd/platform/packages/apps/HTMLViewer" revision="22900f6b6d9d85c8579d4b4e425252ca8f35f6b3" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/ManagedProvisioning" path="vendor/sprd/platform/packages/apps/ManagedProvisioning" revision="0b39af06a4f1696469fa03567c85d197f871bdad" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/PhoneCommon" path="vendor/sprd/platform/packages/apps/PhoneCommon" revision="9af8352631d91004197a5de75e5ae6cfb652e963" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/screensavers/Basic" path="vendor/sprd/platform/packages/screensavers/Basic" revision="d59bf1492c6954f0e2f162f0d2d9cda9f1dd4fb1" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/providers/UserDictionaryProvider" path="vendor/sprd/platform/packages/providers/UserDictionaryProvider" revision="b399bf82002c376d7537f12d44ae9922f76983bb" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/support" path="vendor/sprd/platform/frameworks/support" revision="5d54e8192a16892ce71c6dd9b0cfb3fc54a66a6a" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/system/vold" path="vendor/sprd/platform/system/vold" revision="427653c196cdfc2d6c390ed2616b6ab0a8d01f11" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/AppClone" path="vendor/sprd/platform/packages/apps/AppClone" revision="e2a1cecee50a7ce6cbb0d6648d37261a047d7498" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/AudioProfile" path="vendor/sprd/platform/packages/apps/AudioProfile" revision="31c22664c23d221e128bcc91f8601363cb82c8c1" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Bluetooth" path="vendor/sprd/platform/packages/apps/Bluetooth" revision="b204e30e407fad489e2c5c6b246b29dd6f1ad382" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/CallFirewall" path="vendor/sprd/platform/packages/apps/CallFirewall" revision="80472b4b0f8422d12671d11f3b13230e39d19763" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/CallSettings" path="vendor/sprd/platform/packages/apps/CallSettings" revision="e6b6a87353b6a52f2a23ee5a67373fa4b5fdb84a" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/CarrierConfig" path="vendor/sprd/platform/packages/apps/CarrierConfig" revision="bc66679048d98329ccee1e824b55873d0ec4f2a1" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/frameworks/base/packages/CarrierDefaultApp" path="vendor/sprd/platform/frameworks/base/packages/CarrierDefaultApp" revision="0a8c57747f745302b74211861a8d17fe9e260160" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/CbCustomSetting" path="vendor/sprd/platform/packages/apps/CbCustomSetting" revision="3e495f84676c9d787b538a625bd4886901364846" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/CellBroadcastReceiver" path="vendor/sprd/platform/packages/apps/CellBroadcastReceiver" revision="05917b25d8d989aea4b65d09673b6e4f6ecd4259" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/CertInstaller" path="vendor/sprd/platform/packages/apps/CertInstaller" revision="4bd90141f58dd4d926753fb60200866cc625e3dd" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/DocumentsUI" path="vendor/sprd/platform/packages/apps/DocumentsUI" revision="9c29488f0c0e4ae3b35822bed316ca772ab4b504" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/DreamCamera2" path="vendor/sprd/platform/packages/apps/DreamCamera2" revision="ee8d3aaf343982b955121375a3e1dd7aa5f21757" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/DreamFMRadio" path="vendor/sprd/platform/packages/apps/DreamFMRadio" revision="e5e162835c4252028061b3e75f982fef4e31ccdd" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/DreamSoundRecorder" path="vendor/sprd/platform/packages/apps/DreamSoundRecorder" revision="58ba0f878077dc1b7cc2740601308d0e574eb940" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/EngineerMode" path="vendor/sprd/platform/packages/apps/EngineerMode" revision="2d1375373d4a379b9a302d009b9804018570b386" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/ExactCalculator" path="vendor/sprd/platform/packages/apps/ExactCalculator" revision="ffffe834d585a6dabe22d3f9bff6d4d31478cbde" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/FileExplorer" path="vendor/sprd/platform/packages/apps/FileExplorer" revision="a887798d0f56cae7d1ea85adb76df60cb72d0a12" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/GeneralSecurity" path="vendor/sprd/platform/packages/apps/GeneralSecurity" revision="11df72ca920fe447796746e111af20acba6c145c" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/KeyChain" path="vendor/sprd/platform/packages/apps/KeyChain" revision="9e88600fc43f4781ac898247fa841fe585151ca2" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Launcher3" path="vendor/sprd/platform/packages/apps/Launcher3" revision="96e5080eeeae6db589ca0a3855d8cfc568e958e0" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Messaging" path="vendor/sprd/platform/packages/apps/Messaging" revision="41b25c85751213d6eb5fba6594bb449567c92287" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/MinDriveTest" path="vendor/sprd/platform/packages/apps/MinDriveTest" revision="863d9e742b2a19f909235a563da2b5cee33adc0b" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/NewGallery2" path="vendor/sprd/platform/packages/apps/NewGallery2" revision="7641fd39b7025d30504ee10104565fbaaf775001" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/NewMusic" path="vendor/sprd/platform/packages/apps/NewMusic" revision="b693ce60752cf94848ec4e2f8793cdbbfaf44ea0" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Note" path="vendor/sprd/platform/packages/apps/Note" revision="119aab07788d817e55ae75802d2223265a7ef480" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Omacp" path="vendor/sprd/platform/packages/apps/Omacp" revision="6101dbb52f27035adea7e61f88371390afa9cb80" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/PackageInstaller" path="vendor/sprd/platform/packages/apps/PackageInstaller" revision="eea2546cf55cc07104f47267215fa09426fec231" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/PowerSaveModeLauncher" path="vendor/sprd/platform/packages/apps/PowerSaveModeLauncher" revision="5e21afe32fa3e1e91036a43ddfe035308dbdd976" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Preload" path="vendor/sprd/platform/packages/apps/Preload" revision="5a4a9915ccb6291d5972019ce0d1ffd4a341c43a" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Protips/res" path="vendor/sprd/platform/packages/apps/Protips/res" revision="f9a5f2e27450458e582f7fb5bdd12e4f919518d4" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/QuickCamera" path="vendor/sprd/platform/packages/apps/QuickCamera" revision="6e2b2acbdee07bc0c578e9b6656984ef820580cf" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/ScreenCapture" path="vendor/sprd/platform/packages/apps/ScreenCapture" revision="4df8ce9960050e2fff8530bf70455e2b3e855c85" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Settings" path="vendor/sprd/platform/packages/apps/Settings" revision="158ea66d84caf395c416b42f9a03c3fc551ce104" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SGPS" path="vendor/sprd/platform/packages/apps/SGPS" revision="15ac539067e8c0f92e4f76f5d7fc16544e8c0c63" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SmilPlay" path="vendor/sprd/platform/packages/apps/SmilPlay" revision="2bdc3bdc124a3ac0904a53dc8ca684d2dff73727" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdAppBackup" path="vendor/sprd/platform/packages/apps/SprdAppBackup" revision="c3f6971e29dea4f86c208fb852759b7a3de63f20" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdBrowser" path="vendor/sprd/platform/packages/apps/SprdBrowser" revision="f5e1ced60b2aecbc035277a9f6852ed7d2d95051" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdCalendar" path="vendor/sprd/platform/packages/apps/SprdCalendar" revision="9b34b750bed318b3b9202fb7db66e2cffddf2917" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdCompass" path="vendor/sprd/platform/packages/apps/SprdCompass" revision="cdcc01855328f5f9ce0d1b7885007c5467131075" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdContacts" path="vendor/sprd/platform/packages/apps/SprdContacts" revision="a88539ee909ad07b76cc3bc91708a964eb7d0aeb" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdDeskClock" path="vendor/sprd/platform/packages/apps/SprdDeskClock" revision="4125ffafb0c290c6c5f7c659e74da0f4829b8403" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdDialer" path="vendor/sprd/platform/packages/apps/SprdDialer" revision="4ada5339c66f61d5b8636c70e4b7f43b16a2144a" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdEmail" path="vendor/sprd/platform/packages/apps/SprdEmail" revision="6b2dc4fd406764017666228327a3a8253dde0030" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdLauncher" path="vendor/sprd/platform/packages/apps/SprdLauncher" revision="7b31d37546549bf5c179cef3fd655678731a71e6" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdQuickSearchBox" path="vendor/sprd/platform/packages/apps/SprdQuickSearchBox" revision="c376771afd3d0f34d9e4f13df45114c57b0235ce" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdRecents" path="vendor/sprd/platform/packages/apps/SprdRecents" revision="e3ef1150067b35475faf408da60dd269eb9e27da" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdSlt" path="vendor/sprd/platform/packages/apps/SprdSlt" revision="3bc1d1e9b17e21b1a11b4087fd53b62b3280670a" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SprdStk" path="vendor/sprd/platform/packages/apps/SprdStk" revision="6be0041c23dd6929836cded482c10b322922da0d" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/SystemUpdate" path="vendor/sprd/platform/packages/apps/SystemUpdate" revision="918a6253255c403d692833ed5cc71a86482f7812" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/TvSettings/Settings/res" path="vendor/sprd/platform/packages/apps/TvSettings/Settings/res" revision="f878d3895acf829ab209ce116cc4c6ac5e91027b" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/UplmnSettings" path="vendor/sprd/platform/packages/apps/UplmnSettings" revision="e2edc8cd355fd5aab0c74811f626a7e2025db35a" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/ValidationTools" path="vendor/sprd/platform/packages/apps/ValidationTools" revision="5bd5f4002a09282af3c7e4984badd10b220f6988" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/WallpaperPicker" path="vendor/sprd/platform/packages/apps/WallpaperPicker" revision="fcf7e3fa28a1ebfa75a7c8145dfe8c6eb0c3374a" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Nfc" path="vendor/sprd/platform/packages/apps/Nfc" revision="8a1f0a4aaf8cab3db8f389793524826e4a17e036" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/Tag" path="vendor/sprd/platform/packages/apps/Tag" revision="7d187b8c9b54354bd4235b1839216c2e364d0187" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/apps/StorageManager" path="vendor/sprd/platform/packages/apps/StorageManager" revision="9909c64aeb9a80ddd193d42802309c98ad52c9f7" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/services/BuiltInPrintService" path="vendor/sprd/platform/packages/services/BuiltInPrintService" revision="2e607c780e51919b5374da44a1221daec734dc9f" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/inputmethods/LatinIME" path="vendor/sprd/platform/packages/inputmethods/LatinIME" revision="be3a6f39cec90525fd70ab4dd37318ef6bd7fa3a" groups="sprd,sprd_language" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/providers/DownloadProvider" path="vendor/sprd/platform/packages/providers/DownloadProvider" revision="eea08bd1e27c8cc2fd2e585a2f8853e11f06f63c" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/providers/SprdCalendarProvider" path="vendor/sprd/platform/packages/providers/SprdCalendarProvider" revision="701b1318ee3840eb4b60c47872a34848eac3901b" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/providers/SprdContactsProvider" path="vendor/sprd/platform/packages/providers/SprdContactsProvider" revision="31f65833ac15befb3ed9ea62de6694fe88cf73e0" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/providers/SprdMediaProvider" path="vendor/sprd/platform/packages/providers/SprdMediaProvider" revision="7be51f60bd813c96f24727287ac4e381b47b235d" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/providers/SprdSpecialPhotosProvider" path="vendor/sprd/platform/packages/providers/SprdSpecialPhotosProvider" revision="4c92734f07c751a1d9e56a0dfb95b61d74e6ced9" groups="sprd" upstream="sprd-8.1"/>
+    <project name="vendor/sprd/platform/packages/screensavers/PhotoTable" path="vendor/sprd/platform/packages/screensavers/PhotoTable" revision="37e42d27b392e9b71d9b971550a67e25402c2120" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/services/FdnService" path="vendor/sprd/platform/packages/services/FdnService" revision="33172d0744f219a03d21727eee345c8fb876289d" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/services/Mms" path="vendor/sprd/platform/packages/services/Mms" revision="49af077ec3a83ed219c6d71e9d642e4a7d032c26" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/services/SmartCardService" path="vendor/sprd/platform/packages/services/SmartCardService" revision="b21d6ccd2feacf2b369ba29c30d308b1c054892b" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/services/Telecomm" path="vendor/sprd/platform/packages/services/Telecomm" revision="1c1ae8fd80e11e2783dee99aa2c5daa5ff8d1f8d" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/services/Telephony" path="vendor/sprd/platform/packages/services/Telephony" revision="28af2cdab812f678b6aafea60068e0a677339b45" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/platform/packages/wallpapers/LivePicker" path="vendor/sprd/platform/packages/wallpapers/LivePicker" revision="6d3fc0b00eec9a678bf661c9853261367744d910" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/sprd-webview" path="vendor/sprd/sprd-webview" revision="96816dedd2f6ce6731af2ab473be8011658be5b2" groups="sprd,sprd_apps" upstream="sprd-8.0"/>
+    <project name="vendor/sprd/telephony-res" path="vendor/sprd/telephony-res" revision="7a632121cf8728ea1bea304bd1e0ed87b276a9d1" groups="sprd,sprd_apps" upstream="sprd"/>
+    <project name="vendor/sprd/plugins/frameworks/av/drm" path="vendor/sprd/plugins/frameworks/av/drm" revision="c6374143deba95a0ab7b59812dc45265a243985b" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/frameworks/base/packages/SystemUI" path="vendor/sprd/plugins/frameworks/base/packages/SystemUI" revision="13f233e0924f6fc729a147286c3d0738bd47ea1b" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/frameworks/opt/telephony" path="vendor/sprd/plugins/frameworks/opt/telephony" revision="e47d93f01463d8ba468d4d3079b3833f4c9d9beb" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/apps/CallSettings" path="vendor/sprd/plugins/packages/apps/CallSettings" revision="2c4521ca0b7eac0dfeadf560d70636300685e9fc" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/apps/Dialer" path="vendor/sprd/plugins/packages/apps/Dialer" revision="7989deaaee6535b27706fd81e1b1808b30fc8d7d" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/apps/DocumentsUI" path="vendor/sprd/plugins/packages/apps/DocumentsUI" revision="22bbd815b1cc45b0e9a53a19f231b959f2534da0" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/apps/FileExplorer" path="vendor/sprd/plugins/packages/apps/FileExplorer" revision="6c1cbe16905e292f51da4289e530181f8baf3373" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/apps/Settings" path="vendor/sprd/plugins/packages/apps/Settings" revision="eb29e6573d56bd5b6d01778747624fb36cc7629c" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/apps/SprdBrowser" path="vendor/sprd/plugins/packages/apps/SprdBrowser" revision="06b8355f78f009158abc6e766765add68553cdfe" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk"/>
+    <project name="vendor/sprd/plugins/packages/providers/DownloadProvider" path="vendor/sprd/plugins/packages/providers/DownloadProvider" revision="731e2d86a7a5a0a9bd3e6296716f5e5887dadff7" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/services/Telecomm" path="vendor/sprd/plugins/packages/services/Telecomm" revision="3c162efcccb3bb7c6864843ccb7a55d6b61918b7" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/packages/services/Telephony" path="vendor/sprd/plugins/packages/services/Telephony" revision="e415d3ef516774156a19b4ebb6a5ed29e971cc23" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/plugins/Sample" path="vendor/sprd/plugins/Sample" revision="f1fb316732e1d502e917fca3e5f2f311e0410377" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/airtel/plugins/AirtelCarrierPlugin" path="vendor/sprd/operator/airtel/plugins/AirtelCarrierPlugin" revision="3bec27484e00bac26e626da41fa986c30c936b59" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/ccsa/configs" path="vendor/sprd/operator/ccsa/configs" revision="941d48b57f857e867203a9b321cfd1b427e04981" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/ccsa/prebuilts" path="vendor/sprd/operator/ccsa/prebuilts" revision="a4f05deeb9ec143abf0c777eda19f29a0ca728c5" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/claro/plugins/ClaroCarrierPlugin" path="vendor/sprd/operator/claro/plugins/ClaroCarrierPlugin" revision="df96295a1b9ac897db948e14697b307d84441a09" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cmcc/configs" path="vendor/sprd/operator/cmcc/configs" revision="9984e9f33bc548eb92897f6bab7f023cca6b4a44" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cmcc/packages/apps/10086cn" path="vendor/sprd/operator/cmcc/packages/apps/10086cn" revision="28fa9f277faf9cc37498ca53955c60e05497d01f" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cmcc/packages/apps/MyFavorites" path="vendor/sprd/operator/cmcc/packages/apps/MyFavorites" revision="322837fc29926f6e4dc33df78178bc3bc71e3809" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cmcc/packages/apps/OpManager" path="vendor/sprd/operator/cmcc/packages/apps/OpManager" revision="dd5351b526ce7a1c6d9b9f286f9169d44e6e4997" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk"/>
+    <project name="vendor/sprd/operator/cmcc/packages/apps/Provision2" path="vendor/sprd/operator/cmcc/packages/apps/Provision2" revision="5281f6cbb7c084b6f0563820270068970345c0ed" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk"/>
+    <project name="vendor/sprd/operator/cmcc/prebuilts" path="vendor/sprd/operator/cmcc/prebuilts" revision="8bce4fcb4d4856f49231cd330a2fff209c5d6ee8" groups="sprd,sprd_apps,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cmcc/plugins/CmccCarrierPlugin" path="vendor/sprd/operator/cmcc/plugins/CmccCarrierPlugin" revision="523fcee339dd22f8ea0ea35c42e329e0c42e00c4" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cucc/configs" path="vendor/sprd/operator/cucc/configs" revision="b3aaf0c3c53e1f7697389bf6ee9c413d62bf0850" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cucc/prebuilts" path="vendor/sprd/operator/cucc/prebuilts" revision="0fa738de4f48e2b152eb6286b89e4434564e31dc" groups="sprd,sprd_apps,idhdel" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cucc/plugins/CuccCarrierPlugin" path="vendor/sprd/operator/cucc/plugins/CuccCarrierPlugin" revision="6a3d5ba52c87ab3bc83c136f75a0cef8c0f3b7df" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/cucc/plugins/CuccUsimNotifier" path="vendor/sprd/operator/cucc/plugins/CuccUsimNotifier" revision="4f2ed3e4b86c2e65bbab3af352f0325eb1977438" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/orange/plugins/OrangeCarrierPlugin" path="vendor/sprd/operator/orange/plugins/OrangeCarrierPlugin" revision="475b0ff4b965dbf3b381e5ca1d2e94b28ca2a0d1" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/reliance/plugins/RelianceCarrierPlugin" path="vendor/sprd/operator/reliance/plugins/RelianceCarrierPlugin" revision="389f5cd7e3d92dfb80d5312dc99237a40b965a53" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/telcel/plugins/TelcelCarrierPlugin" path="vendor/sprd/operator/telcel/plugins/TelcelCarrierPlugin" revision="0240d74d343fbed4523efc475efadf783951a5d3" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/telstra/plugins/TelstraCarrierPlugin" path="vendor/sprd/operator/telstra/plugins/TelstraCarrierPlugin" revision="ee76e8a73de0fcadb8d5dbb81de4779d9f6b4239" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/operator/vodafone/plugins/VodafoneCarrierPlugin" path="vendor/sprd/operator/vodafone/plugins/VodafoneCarrierPlugin" revision="0c7c99c70480a087cd2d881625d616ea2a7401b6" groups="sprd,sprd_plugins" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/chipone" path="vendor/sprd/partner/chipone" revision="106731475317cb8d730ca08ae4aabc7f83658905" groups="sprd,sprd_security" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/FotaUpdate" path="vendor/sprd/partner/FotaUpdate" revision="20fb81cd6ee32153fbe44320340b16172d156746" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/iekie_font" path="vendor/sprd/partner/iekie_font" revision="c4199400184bd1283bbdf9f951591a59fd49ec0b" groups="sprd,sprd_apps" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/microarray" path="vendor/sprd/partner/microarray" revision="320ff835b039c3496e021552233f6df0710316fb" groups="sprd,sprd_security" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/RedStoneOta" path="vendor/sprd/partner/RedStoneOta" revision="680e89a871f65d0a915619d1611cf7c3b11052b6" groups="sprd,sprd_security" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/SprdStats" path="vendor/sprd/partner/SprdStats" revision="eb184f484806dd3d9b8e76c6fba4eeea2d7e3a1d" groups="sprd" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/sunwave" path="vendor/sprd/partner/sunwave" revision="c2bf516c6db4b99b193581333729e5b638f5a838" groups="sprd,sprd_security" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="vendor/sprd/partner/TouchPal" path="vendor/sprd/partner/TouchPal" revision="994946e6b58168c22cc10ad0fc2b7080674f6139" groups="sprd,sprd_security" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/lk/common" path="vendor/sprd/proprietories-source/sprdtrusty/external/lk" revision="8e4806ab10a08c2a51f3c65a802ce2c736dcec36" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a">
+        <copyfile src="makefile" dest="vendor/sprd/proprietories-source/sprdtrusty/makefile"/>
+    </project>
+    <project name="sprd_security/trusty/trusty/external/headers" path="vendor/sprd/proprietories-source/sprdtrusty/external/headers" revision="fe7222b7341192abe23982374f4fc11061255965" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/lib" path="vendor/sprd/proprietories-source/sprdtrusty/lib" revision="6792c8c9fd4d48955572a728ac3e1a5ce9404783" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/lk/trusty" path="vendor/sprd/proprietories-source/sprdtrusty/lk/trusty" revision="e5d99cbd9de0e092d740401a736cd9b14cfa1896" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/sample" path="vendor/sprd/proprietories-source/sprdtrusty/app/sample" revision="f872e572870ca214eaa914b40d4ed68df6f07ddf" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/keymaster" path="vendor/sprd/proprietories-source/sprdtrusty/app/keymaster" revision="25c8e0b474c70ca004340ea5b86485dee8897b78" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/gatekeeper" path="vendor/sprd/proprietories-source/sprdtrusty/app/gatekeeper" revision="ccc0b2a4f76f09f26687e8a8a7d692642362f778" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/storage" path="vendor/sprd/proprietories-source/sprdtrusty/app/storage" revision="8c403f187445a1b8734b1480c1a98396e0058692" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/kernelbootcp" path="vendor/sprd/proprietories-source/sprdtrusty/app/kernelbootcp" revision="d658df598548194ee1b03accb8d44ae30cd32cbf" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/production" path="vendor/sprd/proprietories-source/sprdtrusty/app/production" revision="32e02e3ff1920478c12480e0c6a4ca0e5534b92f" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/crypto" path="vendor/sprd/proprietories-source/sprdtrusty/app/crypto" revision="32eb4d9d8020ec29179d3e0e34e39321340ed6d5" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/rpmbproxy" path="vendor/sprd/proprietories-source/sprdtrusty/app/rpmbproxy" revision="9afcd05b04f9e2de8d4f5cc70238d4f294d2791a" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/app/ifaa" path="vendor/sprd/proprietories-source/sprdtrusty/app/ifaa" revision="939ab0b495942f5c6cda33df84cf90de99966ba1" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/platform/system/keymaster" path="vendor/sprd/proprietories-source/sprdtrusty/system/keymaster" revision="07477339ebdecf27246109369788bb24edccd6fa" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/platform/system/gatekeeper" path="vendor/sprd/proprietories-source/sprdtrusty/system/gatekeeper" revision="93dd6905587b23a8371790b1c93a3e406b37efea" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/platform/external/boringssl" path="vendor/sprd/proprietories-source/sprdtrusty/external/openssl" revision="169f73c7d1cc5f8e92296f443747575acf4e37f5" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/device/arm/generic-arm64" path="vendor/sprd/proprietories-source/sprdtrusty/device/arm/generic-arm64" revision="31ef3c7e2fca2cf49238703038e0d92be20a2874" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/device/arm/vexpress-a15" path="vendor/sprd/proprietories-source/sprdtrusty/device/arm/vexpress-a15" revision="e9a7f2b7004715fd28fc77e6402d2fd098b0a435" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/device/arm/sprd" path="vendor/sprd/proprietories-source/sprdtrusty/device/arm/sprd" revision="58fbef641e3062f4392c7f79863cf65913baa9a0" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/vendor/google/aosp" path="vendor/sprd/proprietories-source/sprdtrusty/vendor/google/aosp" revision="853102e7336032b6d624d8114b43ad7d24b3ac59" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/trusty/trusty/vendor/sprd/build" path="vendor/sprd/proprietories-source/sprdtrusty/vendor/sprd/build" revision="a2a527a9cc8119c722c8ece58d445c43116916ce" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a">
+        <linkfile src="lk_inc.mk" dest="vendor/sprd/proprietories-source/sprdtrusty/lk_inc.mk"/>
+        <linkfile src="Android.mk" dest="vendor/sprd/proprietories-source/sprdtrusty/Android.mk"/>
+    </project>
+    <project name="sprd_security/trusty/trusty/vendor/sprd/modules" path="vendor/sprd/proprietories-source/sprdtrusty/vendor/sprd/modules" revision="1a1000e2f442eb9ba6dd7c580711386838f855fd" groups="sprd,sprd_trusty" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/vmm/s-vmm" path="vendor/sprd/proprietories-source/s-vmm" revision="d52eeb8d4080e2ec2adbda19866079383bd624e3" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <project name="sprd_security/bsp" path="vendor/sprd/proprietories-source/sprdtrusty/external/lk/platform/sprd" revision="90c0f1cddfd2d8c0232a203adc4bd50a6bb704f9" groups="sprd,sprd_trusty,idh" upstream="sprdroid8.1_trunk_18a"/>
+    <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
+</manifest>
